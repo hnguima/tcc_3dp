@@ -1,0 +1,30 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introdução}{4}{section.1}%
+\contentsline {paragraph}{}{4}{section*.4}%
+\contentsline {paragraph}{}{4}{section*.5}%
+\contentsline {subsection}{\numberline {1.1}Contexto Histórico}{4}{subsection.1.1}%
+\contentsline {paragraph}{}{4}{section*.6}%
+\contentsline {subsection}{\numberline {1.2}Motivação Econômica}{5}{subsection.1.2}%
+\contentsline {paragraph}{}{5}{section*.7}%
+\contentsline {subsection}{\numberline {1.3}Motivação Técnica}{5}{subsection.1.3}%
+\contentsline {paragraph}{}{5}{section*.8}%
+\contentsline {subsection}{\numberline {1.4}Objetivos}{6}{subsection.1.4}%
+\contentsline {paragraph}{}{6}{section*.9}%
+\contentsline {subsection}{\numberline {1.5}Estrutura da Monografia}{7}{subsection.1.5}%
+\contentsline {paragraph}{}{7}{section*.10}%
+\contentsline {section}{\numberline {2}Revisão Bibliográfica}{8}{section.2}%
+\contentsline {paragraph}{}{8}{section*.11}%
+\contentsline {paragraph}{}{8}{section*.13}%
+\contentsline {subsection}{\numberline {2.1}Stereolithography (SLA)}{9}{subsection.2.1}%
+\contentsline {paragraph}{}{9}{section*.14}%
+\contentsline {subsection}{\numberline {2.2}Selective Laser Sintering (SLS)}{10}{subsection.2.2}%
+\contentsline {paragraph}{}{10}{section*.17}%
+\contentsline {subsection}{\numberline {2.3}Fused Deposition Modeling (FDM)}{12}{subsection.2.3}%
+\contentsline {paragraph}{}{12}{section*.20}%
+\contentsline {subsubsection}{\numberline {2.3.1}Mecânica: Movimentação do Efetuador}{13}{subsubsection.2.3.1}%
+\contentsline {paragraph}{}{13}{section*.21}%
+\contentsline {subsubsection}{\numberline {2.3.2}Mecânica: Extrusor de Filamento}{21}{subsubsection.2.3.2}%
+\contentsline {paragraph}{}{21}{section*.36}%
+\contentsline {subsubsection}{\numberline {2.3.3}Termodinâmica: Bico Aquecido (Hot End)}{23}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Termodinâmica: Mesa Aquecida (Heated Bed)}{25}{subsubsection.2.3.4}%
+\contentsline {paragraph}{}{25}{section*.41}%

@@ -1,0 +1,2014 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{ALL3DP:3DPrinterExtruder}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{3}
+    \field{sortinithash}{3}
+    \field{title}{3D Printer Extruder – The Ultimate Guide | All3DP}
+    \verb{url}
+    \verb https://all3dp.com/1/3d-printer-extruder-nozzle-guide/
+    \endverb
+  \endentry
+
+  \entry{ALL3DP:HowtoPreventHeatCreep}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{3}
+    \field{sortinithash}{3}
+    \field{title}{3D Printer Heatsink: How to Prevent Heat Creep | All3DP}
+    \verb{url}
+    \verb https://all3dp.com/2/3d-printer-heat-sink-creep/
+    \endverb
+  \endentry
+
+  \entry{Fortune}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{3}
+    \field{sortinithash}{3}
+    \field{title}{3D Printing Market Size, Growth | Global Research Report
+  [2029]}
+    \verb{url}
+    \verb https://www.fortunebusinessinsights.com/industry-reports/3d-printing-
+    \verb market-101902
+    \endverb
+    \field{journaltitle}{e global 3D printing market is projected to grow from
+  $18.33 billion in 2022 to $83.90 billion by 2029, at a CAGR of 24.3% in
+  forecast period, 2022-2029... Read More at:-
+  https://www.fortunebusinessinsights.com/industry-reports/3d-printing-market-101902}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Aasvik2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Aasvik},
+         familyi={A\bibinitperiod},
+         given={Mads},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Building a Large Kossel Delta Printer – pt. 1: Parts and
+  Planning – Norwegian Creations}
+    \verb{url}
+    \verb https://www.norwegiancreations.com/2017/01/building-a-large-kossel-de
+    \verb lta-printer-pt-1-parts-and-planning/
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Alghamdi2021}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ASS}{%
+         family={Alghamdi},
+         familyi={A\bibinitperiod},
+         given={Saad\bibnamedelima Saleh},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={John},
+         familyi={J\bibinitperiod},
+         given={Sabu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CNR}{%
+         family={Choudhury},
+         familyi={C\bibinitperiod},
+         given={Namita\bibnamedelima Roy},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=DNK}{%
+         family={Dutta},
+         familyi={D\bibinitperiod},
+         given={Naba\bibnamedelima K.},
+         giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \keyw{3D printing,4D printing,additive manufacturing,composite
+  materials,polymer,polymer composites,smart materials}
+    \strng{namehash}{ASS+1}
+    \strng{fullhash}{ASSJSCNRDNK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    The use of additive manufacturing (AM) has moved well beyond prototyping
+  and has been established as a highly versatile manufacturing method with
+  demonstrated potential to completely transform traditional manufacturing in
+  the future. In this paper, a comprehensive review and critical analyses of
+  the recent advances and achievements in the field of different AM processes
+  for polymers, their composites and nanocomposites, elastomers and multi
+  materials, shape memory polymers and thermo-responsive materials are
+  presented. Moreover, their applications in different fields such as
+  bio-medical, electronics, textiles, and aerospace industries are also
+  discussed. We conclude the article with an account of further research needs
+  and future perspectives of AM process with polymeric materials.%
+    }
+    \verb{doi}
+    \verb 10.3390/POLYM13050753
+    \endverb
+    \field{issn}{2073-4360}
+    \field{issue}{5}
+    \field{pages}{753}
+    \field{title}{Additive Manufacturing of Polymer Materials: Progress,
+  Promise and Challenges}
+    \verb{url}
+    \verb https://www.mdpi.com/2073-4360/13/5/753/htm https://www.mdpi.com/2073
+    \verb -4360/13/5/753
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Polymers 2021, Vol. 13, Page 753}
+    \field{month}{02}
+    \field{year}{2021}
+  \endentry
+
+  \entry{BAMBULAB}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Bambu Lab X1 Series | Desktop 3D Printer | X1-Carbon}
+    \verb{url}
+    \verb https://bambulab.com/en/x1
+    \endverb
+  \endentry
+
+  \entry{FILAMENT2PRINT}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Basic hotend maintenance}
+    \verb{url}
+    \verb https://filament2print.com/gb/blog/135_basic-hotend-maintenance.html
+    \endverb
+  \endentry
+
+  \entry{ALL3DP:Belt3DPrinter}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Belt 3D Printer: All You Need to Know | All3DP}
+    \verb{url}
+    \verb https://all3dp.com/2/3d-printer-belt-all-you-need-to-know/
+    \endverb
+  \endentry
+
+  \entry{Bikas2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BH}{%
+         family={Bikas},
+         familyi={B\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LAK}{%
+         family={Lianos},
+         familyi={L\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Stavropoulos},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{CAE) and Design,Computer-Aided Engineering (CAD,Industrial and
+  Production Engineering,Manufacturability,Mechanical Engineering,Media
+  Management}
+    \strng{namehash}{BHLAKSP1}
+    \strng{fullhash}{BHLAKSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Additive manufacturing (AM) is one of the fastest growing and most
+  promising manufacturing technologies, offering significant advantages over
+  conventional manufacturing processes. That is, the geometrical flexibility
+  that leads to increased design freedom is not infinite as the numerous AM
+  processes impose manufacturing limitations. Abiding by these
+  manufacturability rules implies a backpropagation of AM knowledge to all
+  design phases for a successful build. A catholic AM-driven design framework
+  is needed to ensure full exploitation of the AM design capabilities. The
+  current framework is based on the definition of the CAD aspects and the AM
+  process parameters. Their dependence, affection to the resulted part, and
+  weight on the total process determine the outcome. The AM-driven design
+  framework prevents manufacturing issues of certain geometries, that can be
+  effortlessly created by conventional manufacturing, and additionally exploits
+  the full design-freedom potentials AM has to offer with a linear design flow
+  reducing design iterations and ultimately achieving first time right AM
+  design process.%
+    }
+    \verb{doi}
+    \verb 10.1007/S00170-019-03627-Z
+    \endverb
+    \field{issn}{1433-3015}
+    \field{issue}{9}
+    \field{pages}{3769\bibrangedash 3783}
+    \field{title}{A design framework for additive manufacturing}
+    \verb{url}
+    \verb https://link.springer.com/article/10.1007/s00170-019-03627-z
+    \endverb
+    \field{volume}{103}
+    \field{journaltitle}{The International Journal of Advanced Manufacturing
+  Technology 2019 103:9}
+    \field{month}{05}
+    \field{year}{2019}
+  \endentry
+
+  \entry{BLACKBELT}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Blackbelt 3D - The benchmark in 3D belt printing, why limit
+  yourself}
+    \verb{url}
+    \verb https://blackbelt-3d.com/
+    \endverb
+  \endentry
+
+  \entry{Buchanan2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BC}{%
+         family={Buchanan},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gardner},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{3D printing,Additive
+  manufacturing,Applications,Concrete,Metal,Polymers,Research,Review,Stainless
+  steel,Structural engineering}
+    \strng{namehash}{BCGL1}
+    \strng{fullhash}{BCGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    3D printing, more formally known as additive manufacturing (AM), has the
+  potential to revolutionise the construction industry, with foreseeable
+  benefits including greater structural efficiency, reduction in material
+  consumption and wastage, streamlining and expedition of the design-build
+  process, enhanced customisation, greater architectural freedom and improved
+  accuracy and safety on-site. Unlike traditional manufacturing methods for
+  construction products, metal 3D printing offers ready opportunities to create
+  non-prismatic sections, internal stiffening, openings, functionally graded
+  elements, variable microstructures and mechanical properties through
+  controlled heating and cooling and thermally-induced prestressing. Additive
+  manufacturing offers many opportunities for the construction sector, but
+  there will also be fresh challenges and demands, such as the need for more
+  digitally savvy engineers, greater use of advanced computational analysis and
+  a new way of thinking for the design and verification of structures, with
+  greater emphasis on inspection and load testing. It is envisaged that AM will
+  complement, rather than replace, conventional production processes, with
+  clear potential for hybrid solutions and structural strengthening and
+  repairs. These opportunities and challenges are explored in this paper as
+  part of a wider review of different methods of metal 3D printing, research
+  and early applications of additive manufacturing in the construction
+  industry. Lessons learnt for metal 3D printing in construction from additive
+  manufacturing using other materials and in other industries are also
+  presented.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.ENGSTRUCT.2018.11.045
+    \endverb
+    \field{issn}{0141-0296}
+    \field{pages}{332\bibrangedash 348}
+    \field{title}{Metal 3D printing in construction: A review of methods,
+  research, applications, opportunities and challenges}
+    \field{volume}{180}
+    \field{journaltitle}{Engineering Structures}
+    \field{month}{02}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Cheepu2021}{book}{}
+    \name{author}{3}{}{%
+      {{hash=CJN}{%
+         family={Cheepu},
+         familyi={C\bibinitperiod},
+         given={Jeyaprakash\bibnamedelima Natarajan},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=YM}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Muralimohan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Che-Hua},
+         familyi={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJNYMCH1}
+    \strng{fullhash}{CJNYMCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{isbn}{9815036343}
+    \field{pages}{30}
+    \field{title}{Advances in additive manufacturing processes}
+    \verb{url}
+    \verb https://books.google.com/books/about/Advances_in_Additive_Manufacturi
+    \verb ng_Proce.html?id=QZRUEAAAQBAJ
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{Chen2019}{article}{}
+    \name{author}{10}{}{%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhangwei},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ziyong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Junjie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Chengbo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lao},
+         familyi={L\bibinitperiod},
+         given={Changshi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FY}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Yuelong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Changyong},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Pei},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{3D Printing,Applications,Ceramics,Feedstock,Sintering}
+    \strng{namehash}{CZ+1}
+    \strng{fullhash}{CZLZLJLCLCFYLCLYWPHY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Along with extensive research on the three-dimensional (3D) printing of
+  polymers and metals, 3D printing of ceramics is now the latest trend to come
+  under the spotlight. The ability to fabricate ceramic components of
+  arbitrarily complex shapes has been extremely challenging without 3D
+  printing. This review focuses on the latest advances in the 3D printing of
+  ceramics and presents the historical origins and evolution of each related
+  technique. The main technical aspects, including feedstock properties,
+  process control, post-treatments and energy source–material interactions,
+  are also discussed. The technical challenges and advice about how to address
+  these are presented. Comparisons are made between the techniques to
+  facilitate the selection of the best ones in practical use. In addition,
+  representative applications of the 3D printing of various types of ceramics
+  are surveyed. Future directions are pointed out on the advancement on
+  materials and forming mechanism for the fabrication of high-performance
+  ceramic components.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.JEURCERAMSOC.2018.11.013
+    \endverb
+    \field{issn}{0955-2219}
+    \field{issue}{4}
+    \field{pages}{661\bibrangedash 687}
+    \field{title}{3D printing of ceramics: A review}
+    \field{volume}{39}
+    \field{journaltitle}{Journal of the European Ceramic Society}
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Coelho2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CAWF}{%
+         family={Coelho},
+         familyi={C\bibinitperiod},
+         given={Arthur Wilson\bibnamedelima Fonseca},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=AAC}{%
+         family={Araujo},
+         familyi={A\bibinitperiod},
+         given={Anna\bibnamedelima Carla},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=dSMTRM}{%
+         prefix={da},
+         prefixi={d\bibinitperiod},
+         family={Silva Moreira\bibnamedelima Thiré},
+         familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+         given={Rossana\bibnamedelima Mara},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Universidade Federal do Rio de Janeiro}%
+    }
+    \keyw{ANOVA,Contração,Impressão 3D,Qualidade dimensional,SLA}
+    \strng{namehash}{CAWFAACSMTRMd1}
+    \strng{fullhash}{CAWFAACSMTRMd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    RESUMO A estereolitografia é um dos processos de manufatura aditiva mais
+  utilizados e utiliza resina líquida fotopolimerizável como matéria-prima.
+  Por meio de uma reação de cura, cada camada desta resina é transformada
+  para o estado sólido. Como qualquer tipo de processo de fabricação, a
+  estereolitografia tem suas limitações e dificuldades, a mais comum é a
+  contração dimensional das peças fabricadas durante a polimerização. É
+  possível reduzir este defeito analisando os parâmetros que influenciam o
+  fator de contração das peças produzidas, porém não foram encontrados
+  estudos científicos que quantifiquem a influência da orientação da peça
+  e se há influência da posição na plataforma. Neste artigo, a contração
+  de peças fabricadas foi quantificada e a análise de variância dos
+  resultados em diferentes orientações e localizações foi realizada. De
+  acordo com os resultados, verificou-se que a localização das peças na
+  plataforma é um fator importante em função das orientações das
+  dimensões das geometrias fabricadas e portanto deve ser compensado de forma
+  não homogênea para corrigir este defeito.%
+    }
+    \verb{doi}
+    \verb 10.1590/S1517-707620180004.0600
+    \endverb
+    \field{issn}{1517-7076}
+    \field{issue}{4}
+    \field{title}{Manufatura aditiva por estereolitografia: análise da
+  geometria da peça e da influência da posição e orientação de
+  fabricação}
+    \verb{url}
+    \verb http://www.scielo.br/j/rmat/a/sqSrvrKyZztCfLhN67LQHMq/?format=html&la
+    \verb ng=pt
+    \endverb
+    \field{volume}{23}
+    \field{journaltitle}{Matéria (Rio de Janeiro)}
+    \field{month}{12}
+    \field{year}{2018}
+  \endentry
+
+  \entry{COREXY}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{CoreXY explained: Comparison + strengths and weaknesses -
+  YouTube}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=_ramiM3KHYE
+    \endverb
+  \endentry
+
+  \entry{CR30}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{CR-30 3D Printer - Creality Official Store}
+    \verb{url}
+    \verb https://store.creality.com/products/cr-30-3d-printer?sscid=b1k6_8bh8o
+    \verb &
+    \endverb
+  \endentry
+
+  \entry{Crump1989}{patent}{}
+    \name{author}{1}{}{%
+      {{hash=CSS}{%
+         family={Crump},
+         familyi={C\bibinitperiod},
+         given={S.\bibnamedelima Scott},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSS1}
+    \strng{fullhash}{CSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Apparatus incorporating a movable dispensing head provided with a supply of
+  material which solidifies at a predetermined temperature, and a base member,
+  which are moved relative to each other along "X," "Y," and "Z" axes in a
+  predetermined pattern to create three-dimensional objects by building up
+  material discharged from the dispensing head onto the base member at a
+  controlled rate. The apparatus is preferably computer driven in a process
+  utilizing computer aided design (CAD) and computer-aided (CAM) software to
+  generate drive signals for controlled movement of the dispensing head and
+  base member as material is being dispensed. Three-dimensional objects may be
+  produced by depositing repeated layers of solidifying material until the
+  shape is formed. Any material, such as self-hardening waxes, thermoplastic
+  resins, molten metals, two-part epoxies, foaming plastics, and glass, which
+  adheres to the previous layer with an adequate bond upon solidification, may
+  be utilized. Each layer base is defined by the previous layer, and each layer
+  thickness is defined and closely controlled by the height at which the tip of
+  the dispensing head is positioned above the preceding layer.%
+    }
+    \field{title}{Apparatus and method for creating three-dimensional objects}
+    \field{type}{patent}
+    \field{month}{10}
+    \field{year}{1989}
+  \endentry
+
+  \entry{Deckard1986}{patent}{}
+    \name{author}{1}{}{%
+      {{hash=DRC}{%
+         family={Deckard},
+         familyi={D\bibinitperiod},
+         given={R.\bibnamedelima Carl},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DRC1}
+    \strng{fullhash}{DRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1986}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    A method and apparatus for selectively sintering a layer of powder to
+  produce a part comprising a plurality of sintered layers. The apparatus
+  includes a computer controlling a laser to direct the laser energy onto the
+  powder to produce a sintered mass. The computer either determines or is
+  programmed with the boundaries of the desired cross-sectional regions of the
+  part. For each cross-section, the aim of the laser beam is scanned over a
+  layer of powder and the beam is switched on to sinter only the powder within
+  the boundaries of the cross-section. Powder is applied and successive layers
+  sintered until a completed part is formed. The powder can comprise either
+  plastic, metal, ceramic, or polymer substance. In the preferred embodiment,
+  the aim of the laser is directed in a continuous raster scan and the laser
+  turned on when the beam is aimed with the boundaries of the particular
+  cross-section being formed.%
+    }
+    \field{isbn}{571569593/1984}
+    \field{title}{Method and apparatus for producing parts by selective
+  sintering}
+    \field{type}{patent}
+    \field{month}{10}
+    \field{year}{1986}
+  \endentry
+
+  \entry{3DPRINTERLY}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Delta Vs Cartesian 3D Printer – Which Should I Buy? Pros
+  and Cons – 3D Printerly}
+    \verb{url}
+    \verb https://3dprinterly.com/delta-vs-cartesian-3d-printer/
+    \endverb
+  \endentry
+
+  \entry{Deshpande2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DSP}{%
+         family={Deshpande},
+         familyi={D\bibinitperiod},
+         given={Sourabh\bibnamedelima Prashant},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={Sid},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DSPSS1}
+    \strng{fullhash}{DSPSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{issn}{2152-4165}
+    \field{issue}{1}
+    \field{pages}{15\bibrangedash 22}
+    \field{title}{DEVELOPING AN OPEN SOURCE, INEXPENSIVE, LARGE-SCALE POLAR
+  CONFIGURATION 3D PRINTER}
+    \field{volume}{11}
+    \field{journaltitle}{International Journal of Engineering Research and
+  Innovation}
+    \field{year}{2019}
+  \endentry
+
+  \entry{RINGING}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Diagnosing and fixing ringing versus vibration artefacts -
+  desiquintans.com}
+    \verb{url}
+    \verb http://www.desiquintans.com/ringing
+    \endverb
+  \endentry
+
+  \entry{RECREUS}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Direct extrusion vs. bowden type - Recreus}
+    \verb{url}
+    \verb https://recreus.com/gb/noticias/learn-with-recreus/direct-extrusion-v
+    \verb s-bowden-type
+    \endverb
+  \endentry
+
+  \entry{Douglas2021}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DK}{%
+         family={Douglas},
+         familyi={D\bibinitperiod},
+         given={Ken},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DK1}
+    \strng{fullhash}{DK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{3D Printer Heated Bed – The Advantages | All3DP}
+    \verb{url}
+    \verb https://all3dp.com/2/3d-printer-heated-bed-advantages/
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{Emami2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EMM}{%
+         family={Emami},
+         familyi={E\bibinitperiod},
+         given={Mohammad\bibnamedelima Mahdi},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Barazandeh},
+         familyi={B\bibinitperiod},
+         given={Farshad},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=YF}{%
+         family={Yaghmaie},
+         familyi={Y\bibinitperiod},
+         given={Farrokh},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{Additive manufacturing,DMD,Large area exposure,Maskless
+  fabrication,Micromirror,Scanning projection stereolithography}
+    \strng{namehash}{EMMBFYF1}
+    \strng{fullhash}{EMMBFYF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Projection-based stereolithography (PSL) is an efficient way for rapid
+  fabrication of 3D structures. However, it is suitable for small parts
+  requiring high resolution. The scanning-based SL (SSL) covers a larger area
+  with a lower resolution. Fabrication time in PSL is intrinsically less than
+  SSL due to exposing an entire image field in a single shot. This study
+  introduces a new scanning-projection based stereolithography (SPSL) to
+  include the advantages of both former methods. SPSL takes advantage of a
+  digital micromirror device (DMD) and a moving stage to combine the projection
+  and scanning methods. The DMD moves continuously over the medium while the
+  projected pattern is continuously updated to allow the fabrication of large
+  layers. After modeling the approach, an experimental setup is assembled to
+  produce real parts. An economical ultra violet light-emitting diode (UV-LED)
+  is used as a light source for curing. Seven 3D models with defined geometry
+  consisted of circular, rectangular, complex and overhanging parts are
+  selected. Five copies of each model are built. The experimental results show
+  that the method is feasible and versatile. The achieved standard deviation is
+  lower than 32 μm. © 2014 Elsevier B.V.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.SNA.2014.08.002
+    \endverb
+    \field{issn}{0924-4247}
+    \field{pages}{116\bibrangedash 124}
+    \field{title}{Scanning-projection based stereolithography: Method and
+  structure}
+    \field{volume}{218}
+    \field{journaltitle}{Sensors and Actuators A: Physical}
+    \field{month}{10}
+    \field{year}{2014}
+  \endentry
+
+  \entry{ENDER3}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Ender-3 3D Printer}
+    \verb{url}
+    \verb https://www.creality.com/products/ender-3-3d-printer
+    \endverb
+    \field{journaltitle}{Ender 3}
+  \endentry
+
+  \entry{ENDER5PLUS}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Ender-5 Plus 3D Printer}
+    \verb{url}
+    \verb https://www.creality.com/products/ender-5-plus-3d-printer
+    \endverb
+  \endentry
+
+  \entry{ENDER5PRO}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Ender-5 Pro 3D Printer}
+    \verb{url}
+    \verb https://www.creality.com/products/ender-5-pro-3d-printer
+    \endverb
+  \endentry
+
+  \entry{Florin2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=F�}{%
+         family={Florin},
+         familyi={F\bibinitperiod},
+         given={ȘOVĂILĂ},
+         giveni={�\bibinitperiod},
+      }}%
+      {{hash=C�}{%
+         family={Claudiu},
+         familyi={C\bibinitperiod},
+         given={ȘOVĂILĂ},
+         giveni={�\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Nicuşor},
+         familyi={N\bibinitperiod},
+         given={BAROIU},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Autodesk Inventor,art,engineering,metal,sculpture}
+    \strng{namehash}{F�C�NB1}
+    \strng{fullhash}{F�C�NB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    Some of the authors of this publication are also working on these related
+  projects: STEAM education and learning by Robotics, 3D and Mobile
+  technologies-FabLab SchoolNet View project Profiling procedure for disk
+  cutter to generate the male rotor, screw compressors component, using the
+  "Substitute Family Circle"-graphic method in AUTOCAD environment View project
+  Nicusor Baroiu Universitatea Dunarea de Jos Galati Abstract: 3D printing is a
+  very used process in industry, the generic name being "rapid prototyping".
+  The essential advantage of a 3D printer is that it allows the designers to
+  produce a prototype in a very short time, which is tested and quickly
+  remodeled, considerably reducing the required time to get from the prototype
+  phase to the final product. At the same time, through this technique we can
+  achieve components with very precise forms, complex pieces that, through
+  classical methods, could have been accomplished only in a large amount of
+  time. In this paper, there are presented the stages of a 3D model execution,
+  also the physical achievement after of a Delta 3D printer after the model.%
+    }
+    \field{title}{Delta 3D Printer}
+    \verb{url}
+    \verb https://www.researchgate.net/publication/308787130
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Gadagi2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GB}{%
+         family={Gadagi},
+         familyi={G\bibinitperiod},
+         given={Basavraj},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lekurwale},
+         familyi={L\bibinitperiod},
+         given={Ramesh},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{Factors affected,Metal additive manufacturing,Metal printing
+  advances,Z-Axis strength}
+    \strng{namehash}{GBLR1}
+    \strng{fullhash}{GBLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    This is review paper on advances in 3D metal printing. There are many 3D
+  printing methods are available for different type materials. The 3D part is
+  manufactured directly from 3D virtual part which is drawn in software like
+  catia, solidworks, UGNX and etc. and the manufacturing is almost same in all
+  type of machine which is built up of material layer by layer approach. But in
+  this paper we will see the advances in 3D metal printing and the melting
+  process used in metal is difficult and different than plastic. Additive
+  manufacturing features freedom to part for part consolidation, part
+  complexity, part design, light-weighting and design for application in 3D
+  printing like automobile application, aerospace, marine, oil and gas
+  applications. The techniques of 3D printing are explained in this report. But
+  3D manufacturing is not as good as conventional machining since the parts are
+  a week in strength in Z-direction. There are some factors which reduce 3D
+  part strength like a surface finish, porosity, etc. are discussed in this
+  report and also one case study is prepared for factors affecting the part.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.MATPR.2020.10.436
+    \endverb
+    \field{issn}{2214-7853}
+    \field{pages}{277\bibrangedash 283}
+    \field{title}{A review on advances in 3D metal printing}
+    \field{volume}{45}
+    \field{journaltitle}{Materials Today: Proceedings}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Goodridge2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GRD}{%
+         family={Goodridge},
+         familyi={G\bibinitperiod},
+         given={R.\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TCJ}{%
+         family={Tuck},
+         familyi={T\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HRJ}{%
+         family={Hague},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima J.M.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pergamon}%
+    }
+    \strng{namehash}{GRDTCJHRJ1}
+    \strng{fullhash}{GRDTCJHRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    With the evolution of additive techniques from prototyping tools (Rapid
+  Prototyping; RP) to the production of actual end-use parts (Additive
+  Manufacturing; AM), there is a growing need to develop and be able to process
+  a much greater variety of materials than is currently possible. The handful
+  of current polymeric materials that exist for processing by additive
+  techniques does not meet the requirements of the majority of commercial
+  products. There is therefore considerable interest from industrial and
+  academic organisations, who realise the capabilities this technology has in
+  the design and implementation of products, to increase material choice and to
+  have a comprehensive understanding of the fundamental material properties.
+  This review paper looks at the factors that need to be considered when
+  selecting and processing polymers and the research that has been carried out
+  to date, focussing on laser sintering, which is one of the most established
+  and widely used Additive Manufacturing approaches. It also examines the
+  limitations of current laser sintering systems in relation to the processing
+  of polymer materials. The effect this has on the development of new and
+  improved materials for laser sintering is evaluated, in addition to the
+  difficulties experienced in maintaining consistency with current laser
+  sintering polymers. © 2011 Elsevier Ltd. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.PMATSCI.2011.04.001
+    \endverb
+    \field{issn}{0079-6425}
+    \field{issue}{2}
+    \field{pages}{229\bibrangedash 267}
+    \field{title}{Laser sintering of polyamides and other polymers}
+    \field{volume}{57}
+    \field{journaltitle}{Progress in Materials Science}
+    \field{month}{02}
+    \field{year}{2012}
+  \endentry
+
+  \entry{GRV2022}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={GVR},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{3D Printing Market Size and Share Report, 2022-2030}
+    \verb{url}
+    \verb https://www.grandviewresearch.com/industry-analysis/3d-printing-indus
+    \verb try-analysis
+    \endverb
+  \endentry
+
+  \entry{HEMERA}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Hemera Direct Kit (1.75mm) – E3D Online}
+    \verb{url}
+    \verb https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm
+    \endverb
+  \endentry
+
+  \entry{REPRAP:HotEndDesignTheory}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Hot End Design Theory - RepRap}
+    \verb{url}
+    \verb https://reprap.org/wiki/Hot_End_Design_Theory
+    \endverb
+  \endentry
+
+  \entry{ALL3DP:HowtoFixHeatCreep}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{How to Fix Heat Creep (3D Printing): 4 Simple Solutions |
+  All3DP}
+    \verb{url}
+    \verb https://all3dp.com/2/3d-printer-heat-creep/
+    \endverb
+  \endentry
+
+  \entry{Huang2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jigang},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=QQ}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Qin},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \keyw{additive
+  manufacturing,continuous,projection,scanning,stereolithography}
+    \strng{namehash}{HJQQWJ1}
+    \strng{fullhash}{HJQQWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Being the earliest form of additive manufacturing, stereolithography (SLA)
+  fabricates 3D objects by selectively solidifying the liquid resin through a
+  photopolymerization reaction. The ability to fabricate objects with high
+  accuracy as well as a wide variety of materials brings much attention to
+  stereolithography. Since its invention in the 1980s, SLA underwent four
+  generations of major technological innovation over the past 40 years. These
+  innovations have thus resulted in a diversified range of stereolithography
+  systems with dramatically improved resolution, throughput, and materials
+  selection for creating complex 3D objects and devices. In this paper, we
+  review the four generations of stereolithography processes, which are
+  scanning, projection, continuous and volumetric stereolithography. For each
+  generation, representative stereolithography system configurations are also
+  discussed in detail. In addition, other derivative technologies, such as
+  scanning&ndash;projection, multi-material, and magnetically assisted
+  stereolithography processes, are also included in this review.%
+    }
+    \verb{doi}
+    \verb 10.3390/PR8091138
+    \endverb
+    \field{issn}{2227-9717}
+    \field{issue}{9}
+    \field{pages}{1138}
+    \field{title}{A Review of Stereolithography: Processes and Systems}
+    \verb{url}
+    \verb https://www.mdpi.com/2227-9717/8/9/1138/htm https://www.mdpi.com/2227
+    \verb -9717/8/9/1138
+    \endverb
+    \field{volume}{8}
+    \field{journaltitle}{Processes 2020, Vol. 8, Page 1138}
+    \field{month}{09}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Hull1984}{patent}{}
+    \name{author}{2}{}{%
+      {{hash=HCW}{%
+         family={Hull},
+         familyi={H\bibinitperiod},
+         given={Charles\bibnamedelima W},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Arcadia},
+         familyi={A\bibinitperiod},
+         given={Calif},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HCWAC1}
+    \strng{fullhash}{HCWAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1984}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    A system for generating three-dimensional objects by creating a
+  cross-sectional pattern of the object to be formed at a selected surface of a
+  fluid medium capable of altering its physical state in response to
+  appropriate synergistic stimulation by impinging radiation, particle
+  bombardment or chemical reaction, successive adjacent laminae, representing
+  corresponding successive adjacent cross-sections of the object, being
+  automatically formed and integrated together to provide a step-wise laminar
+  buildup of the desired object, whereby a three-dimensional object is formed
+  and drawn from a substantially planar surface of the fluid medium during the
+  forming process.%
+    }
+    \field{isbn}{2,908,54510/1}
+    \field{title}{Apparatus for production of three-dimensional objects by
+  stereolithography}
+    \field{type}{patent}
+    \field{month}{08}
+    \field{year}{1984}
+  \endentry
+
+  \entry{CUBEXDUO}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Impressora 3D CubeX Duo | Exame}
+    \verb{url}
+    \verb https://exame.com/tecnologia/impressora-3d-cubex-duo-1/
+    \endverb
+  \endentry
+
+  \entry{ABB:IRB360}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{IRB 360 Data sheet}
+    \verb{url}
+    \verb https://search.abb.com/library/Download.aspx?DocumentID=ROB0082EN_G&L
+    \verb anguageCode=en&DocumentPartId=&Action=Launch
+    \endverb
+  \endentry
+
+  \entry{Jeong2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JU}{%
+         family={Jeong},
+         familyi={J\bibinitperiod},
+         given={Useok},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=CKJ}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Kyu\bibnamedelima Jin},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \strng{namehash}{JUCKJ1}
+    \strng{fullhash}{JUCKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    Friction along the Bowden-cable transmission degenerates control
+  performance unless it is properly compensated. Friction is produced when the
+  bending angle of the Bowden-cable changes as the relative position of the
+  actuator and the end-effector changes. This study proposes a method, termed
+  loop routing, to compensate friction along the Bowden-cable. Loop routing
+  involves making a one-round loop along the sheath that continuously maintains
+  the sheath's bending angle at 2π regardless of the end-effector's position
+  in 2-D space. This minimizes the bending angle change of the sheath as the
+  end-effector translates in a 3-D workspace, which minimizes the friction
+  change and enables feedforward friction compensation of the Bowden-cable
+  without employing a sensor. An experiment in open-loop tension control of the
+  Bowden-cable was conducted to evaluate the performance of the proposed
+  method. Results show that the output tension follows the reference tension
+  well, with an RMS error of 4.3% and a peak error of 13.3% of maximum
+  reference.%
+    }
+    \verb{doi}
+    \verb 10.1109/IROS.2015.7354223
+    \endverb
+    \field{isbn}{9781479999941}
+    \field{issn}{21530866}
+    \field{pages}{5948\bibrangedash 5953}
+    \field{title}{Feedforward friction compensation of Bowden-cable
+  transmission via loop routing}
+    \field{volume}{2015-December}
+    \field{journaltitle}{IEEE International Conference on Intelligent Robots
+  and Systems}
+    \field{month}{12}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Kafle2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KA}{%
+         family={Kafle},
+         familyi={K\bibinitperiod},
+         given={Abishek},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Luis},
+         familyi={L\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Silwal},
+         familyi={S\bibinitperiod},
+         given={Raman},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PHM}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Houwen\bibnamedelima Matthew},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SPL}{%
+         family={Shrestha},
+         familyi={S\bibinitperiod},
+         given={Pratisthit\bibnamedelima Lal},
+         giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BAK}{%
+         family={Bastola},
+         familyi={B\bibinitperiod},
+         given={Anil\bibnamedelima Kumar},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \keyw{3D printing,4D printing,fused deposition modelling,polymers,selective
+  laser sintering,stereolithography}
+    \strng{namehash}{KA+1}
+    \strng{fullhash}{KALESRPHMSPLBAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Additive manufacturing (AM) or 3D printing is a digital manufacturing
+  process and offers virtually limitless opportunities to develop
+  structures/objects by tailoring material composition, processing conditions,
+  and geometry technically at every point in an object. In this review, we
+  present three different early adopted, however, widely used, polymer-based 3D
+  printing processes; fused deposition modelling (FDM), selective laser
+  sintering (SLS), and stereolithography (SLA) to create polymeric parts. The
+  main aim of this review is to offer a comparative overview by correlating
+  polymer material-process-properties for three different 3D printing
+  techniques. Moreover, the advanced material-process requirements towards 4D
+  printing via these print methods taking an example of magneto-active polymers
+  is covered. Overall, this review highlights different aspects of these
+  printing methods and serves as a guide to select a suitable print material
+  and 3D print technique for the targeted polymeric material-based applications
+  and also discusses the implementation practices towards 4D printing of
+  polymer-based systems with a current state-of-the-art approach.%
+    }
+    \verb{doi}
+    \verb 10.3390/POLYM13183101
+    \endverb
+    \field{issn}{2073-4360}
+    \field{issue}{18}
+    \field{pages}{3101}
+    \field{title}{3D/4D Printing of Polymers: Fused Deposition Modelling (FDM),
+  Selective Laser Sintering (SLS), and Stereolithography (SLA)}
+    \verb{url}
+    \verb https://www.mdpi.com/2073-4360/13/18/3101/htm https://www.mdpi.com/20
+    \verb 73-4360/13/18/3101
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Polymers 2021, Vol. 13, Page 3101}
+    \field{month}{09}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Koo2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KYC}{%
+         family={Koo},
+         familyi={K\bibinitperiod},
+         given={Yeong\bibnamedelima Chin},
+         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SMMS}{%
+         family={Sauri},
+         familyi={S\bibinitperiod},
+         given={Muhammad Muammar\bibnamedelima Sapian},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=KTS}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Teck\bibnamedelima Seng},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PKH}{%
+         family={Poh},
+         familyi={P\bibinitperiod},
+         given={Kok\bibnamedelima Hang},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=AAS}{%
+         family={Azhar},
+         familyi={A\bibinitperiod},
+         given={Ahmad\bibnamedelima Saiful},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MMN}{%
+         family={Mahyuddin},
+         familyi={M\bibinitperiod},
+         given={Muhammad\bibnamedelima Nasiruddin},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KYC+1}
+    \strng{fullhash}{KYCSMMSKTSPKHAASMMN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Selective compliance assembly robot arm (SCARA)is a particular kind of
+  industrial robot which is widely adopted in industrial environments and also
+  widely used by researchers as a benchmark to evaluate controllers. The SCARA
+  robot in this project is 3D printed and it is underactuated, i.e. there is
+  only 1 actuator driving a two-degrees of freedom 2 planar robot arm
+  mechanism. Non-collocated linearisation is discussed and control technique to
+  address the underactuation condition is further elucidated in the pursuit to
+  design a suitable controller. PD controller and PD controller with
+  robustification signal are simulated on an underactuated 2 DOF planar robot
+  arm model. The relationships of these degree of freedom with the orientation
+  of end effector were determined through kinematic analysis by applying
+  Denavit-Hartenberg convention. The effects of torques on the motion of
+  underactuated SCARA robot were determined through dynamic analysis. Most of
+  the mechanical structure of the prototype was fabricated by using 3D printer.
+  Hardware construction to simulate the effects of possible faulty 2nd joint
+  angle of SCARA robot arm is also discussed for future work on control scheme
+  evaluation on a generic underactuated system.%
+    }
+    \field{title}{Control and Development of a 3D Printed SCARA robot as an
+  Underactuated System}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Letier2006}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LP}{%
+         family={Letier},
+         familyi={L\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schiele},
+         familyi={S\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Avraam},
+         familyi={A\bibinitperiod},
+         given={More},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Preumont},
+         familyi={P\bibinitperiod},
+         given={André},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Bowden Cable,Exoskeleton,Haptic Actuator}
+    \strng{namehash}{LP+1}
+    \strng{fullhash}{LPSAAMPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    This paper introduces a novel type of actuator for force-reflection to
+  haptic master interfaces. The actuator is based on a DC motor that is
+  relocated from the mechanism joint by means of bowden cable transmissions.
+  After an introduction and formulation of the project goals, the paper
+  highlights some important bowden cable transmission characteristics that
+  influence the design of the necessary hardware. Next, a hardware prototype is
+  presented that has been built to analyze the transmission characteristics of
+  the bowden cable transmissions between actuator and robotic joint. The
+  prototype was used next to investigate achievable actuator performance in
+  force-feedback control with a slave. Results are presented, which show good
+  performance and contact stability in a 4 channel control scheme. The actuator
+  has low movement resistance in free motion and can reflect high torques
+  during hard contact situations with a slave.%
+    }
+    \field{title}{Bowden Cable Actuator for Torque-Feedback in Haptic
+  Applications}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Makksu2016}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Makksu},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Cartesian Printer – Motion Platform – Research 1 –
+  makkusu}
+    \verb{url}
+    \verb https://maxdesign1990.wordpress.com/2016/05/22/gmtech-printer-motion-
+    \verb platform-research/
+    \endverb
+    \field{month}{05}
+    \field{year}{2016}
+  \endentry
+
+  \entry{ALL3DP:SCARA3DPrinter}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=OJ}{%
+         family={O'Connell},
+         familyi={O\bibinitperiod},
+         given={Jackson},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OJ1}
+    \strng{fullhash}{OJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{SCARA 3D Printer: All You Need to Know | All3DP}
+    \verb{url}
+    \verb https://all3dp.com/2/scara-3d-printer-guide/
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{Passos2009}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PJC}{%
+         family={Passos},
+         familyi={P\bibinitperiod},
+         given={Júlio\bibnamedelima César},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJC1}
+    \strng{fullhash}{PJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Os experimentos de Joule e a primeira lei da termodinâmica}
+    \verb{url}
+    \verb www.sbfisica.org.br
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{PTFE}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{PTFE (polytetrafluoroethylene) | Fluorotherm.com}
+    \verb{url}
+    \verb https://web.archive.org/web/20100305090149/http://fluorotherm.com/Pro
+    \verb perties-PTFE.asp
+    \endverb
+  \endentry
+
+  \entry{PRUSAI3}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={RepRap},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Prusa i3 - RepRap}
+    \verb{url}
+    \verb https://reprap.org/wiki/Prusa_i3
+    \endverb
+    \field{journaltitle}{Prusa I3}
+  \endentry
+
+  \entry{POTTERSCARA}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Scara Operation: 3D Potter Scara and Scara Mini - YouTube}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=C9t-qfygyX4
+    \endverb
+  \endentry
+
+  \entry{Schmidleithner2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SC}{%
+         family={Schmidleithner},
+         familyi={S\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KDM}{%
+         family={Kalaskar},
+         familyi={K\bibinitperiod},
+         given={Deepak\bibnamedelima M},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{3D printing,additive manufacturing (AM),continuous liquid interface
+  production (CLIP),digital light processing (DLP),stereolithography
+  (SLA),two-photon polymerization (TPP)}
+    \strng{namehash}{SCKDM1}
+    \strng{fullhash}{SCKDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    The stereolithography (SLA) process and its methods are introduced in this
+  chapter. After establishing SLA as pertaining to the high-resolution but also
+  high-cost spectrum of the 3D printing technologies, different classifications
+  of SLA processes are presented. Laser-based SLA and digital light processing
+  (DLP), as well as their specialized techniques such as two-photon
+  polymerization (TPP) or continuous liquid interface production (CLIP) are
+  discussed and analyzed for their advantages and shortcomings. Prerequisites
+  of SLA resins and the most common resin compositions are discussed.
+  Furthermore, printable materials and their applications are briefly reviewed,
+  and insight into commercially available SLA systems is given. Finally, an
+  outlook highlighting challenges within the SLA process and propositions to
+  resolve these are offered.%
+    }
+    \verb{doi}
+    \verb 10.5772/intechopen.78147
+    \endverb
+    \field{title}{Stereolithography}
+    \verb{url}
+    \verb http://dx.doi.org/10.5772/intechopen.78147
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Shakor2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SP}{%
+         family={Shakor},
+         familyi={S\bibinitperiod},
+         given={Pshtiwan},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nejadi},
+         familyi={N\bibinitperiod},
+         given={Shami},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Paul},
+         familyi={P\bibinitperiod},
+         given={Gavin},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Malek},
+         familyi={M\bibinitperiod},
+         given={Sardar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Frontiers Media S.A.}%
+    }
+    \keyw{Cement mortar,Cementitious mix design,Construction,Extrusion
+  printing,Inkjet 3D printing}
+    \strng{namehash}{SP+1}
+    \strng{fullhash}{SPNSPGMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Additive manufacturing is a fabrication technology that is rapidly
+  revolutionizing the manufacturing and construction sectors. In this paper, a
+  review of various prototyping technologies for printing cementitious
+  materials and selected 3D printing techniques are presented in detail.
+  Benchmark examples are provided to compare three well-known printing
+  techniques; inkjet printing (binder jetting), selected laser sintering (SLS),
+  and extrusion printing (extrusion based process). A comprehensive search in
+  the literature was conducted to identify various mix designs that could be
+  employed when printing cementitious materials. Aspects of concrete mix design
+  are described, and some new experiments are conducted to analyse the
+  printability of new mixes by the authors. Future research in the area of the
+  rheology of cementitious materials and its relationship with the structural
+  performance of finished concretes are highlighted.%
+    }
+    \verb{doi}
+    \verb 10.3389/FBUIL.2018.00085/BIBTEX
+    \endverb
+    \field{issn}{22973362}
+    \field{pages}{85}
+    \field{title}{Review of emerging additive manufacturing technologies in 3d
+  printing of cementitious materials in the construction industry}
+    \field{volume}{4}
+    \field{journaltitle}{Frontiers in Built Environment}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Sollmann2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SKS}{%
+         family={Sollmann},
+         familyi={S\bibinitperiod},
+         given={Klaus\bibnamedelima S.},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JMK}{%
+         family={Jouaneh},
+         familyi={J\bibinitperiod},
+         given={Musa\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lavender},
+         familyi={L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Belt drive,Dynamic modeling,H-frame,XY positioning system}
+    \strng{namehash}{SKSJMKLD1}
+    \strng{fullhash}{SKSJMKLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    XY positioning is an important task in industrial applications. This paper
+  addresses the dynamic modeling of a belt-driven, parallel-type XY positioning
+  system constructed in the form of a capitalized H. The system uses one long
+  timing belt to transmit the rotation of two stationary motors to end-effector
+  motion. Due to less moved masses, the studied H-frame system is potentially
+  capable of fast acceleration, and therefore, faster positioning than
+  traditional stacked systems. The use of an elastic transmission element also
+  causes the biggest disadvantage of the system, which is an uncertainty of
+  end-effector position due to stretching in the belt. Thus, the objective of
+  this paper is to develop a dynamic model that can capture the response of
+  this system. Using Lagrange's method, an eighth-order lumped parameter
+  dynamic model of the stage motion is derived. The effect of nonlinear
+  friction in the pulleys and cart motion is added to the model. The response
+  of the model was simulated in MATLAB Simulink, and the model prediction is
+  compared with real data obtained from the developed system. The results show
+  that the model can accurately predict the dynamics of the developed H-frame
+  positioning system. © 2009 IEEE.%
+    }
+    \verb{doi}
+    \verb 10.1109/TMECH.2009.2020823
+    \endverb
+    \field{issn}{10834435}
+    \field{issue}{2}
+    \field{pages}{280\bibrangedash 290}
+    \field{title}{Dynamic modeling of a two-axis, parallel, H-frame-type XY
+  positioning system}
+    \verb{url}
+    \verb https://www.researchgate.net/publication/224446035_Dynamic_Modeling_o
+    \verb f_a_Two-Axis_Parallel_H-Frame-Type_XY_Positioning_System
+    \endverb
+    \field{volume}{15}
+    \field{journaltitle}{IEEE/ASME Transactions on Mechatronics}
+    \field{month}{04}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Sun2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SC}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WDM}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={D.\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{Dynamic mask,Polymer,Projection
+  micro-stereolithography,Three-dimensional microfabrication}
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCFNWDMZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    We present in this paper the development of a high-resolution projection
+  micro-stereolithography (PμSL) process by using the Digital Micromirror
+  Device (DMD™, Texas Instruments) as a dynamic mask. This unique technology
+  provides a parallel fabrication of complex three-dimensional (3D)
+  microstructures used for micro electro-mechanical systems (MEMS). Based on
+  the understanding of underlying mechanisms, a process model has been
+  developed with all critical parameters obtained from the experimental
+  measurement. By coupling the experimental measurement and the process model,
+  the photon-induced curing behavior of the resin has been quantitatively
+  studied. The role of UV doping has been thereafter justified, as it can
+  effectively reduce the curing depth without compromising the chemical
+  property of the resin. The fabrication of complex 3D microstructures, such as
+  matrix, and micro-spring array, with the smallest feature of 0.6 μm, has
+  been demonstrated. © 2005 Elsevier B.V. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.SNA.2004.12.011
+    \endverb
+    \field{issn}{0924-4247}
+    \field{issue}{1}
+    \field{pages}{113\bibrangedash 120}
+    \field{title}{Projection micro-stereolithography using digital micro-mirror
+  dynamic mask}
+    \field{volume}{121}
+    \field{journaltitle}{Sensors and Actuators A: Physical}
+    \field{month}{05}
+    \field{year}{2005}
+  \endentry
+
+  \entry{V6}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{V6 All-Metal HotEnd – E3D Online}
+    \verb{url}
+    \verb https://e3d-online.com/products/v6-all-metal-hotend
+    \endverb
+  \endentry
+
+  \entry{Valino2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=VAD}{%
+         family={Valino},
+         familyi={V\bibinitperiod},
+         given={Arnaldo\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DJRC}{%
+         family={Dizon},
+         familyi={D\bibinitperiod},
+         given={John Ryan\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=EAH}{%
+         family={Espera},
+         familyi={E\bibinitperiod},
+         given={Alejandro\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CQ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Qiyi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Messman},
+         familyi={M\bibinitperiod},
+         given={Jamie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ARC}{%
+         family={Advincula},
+         familyi={A\bibinitperiod},
+         given={Rigoberto\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pergamon}%
+    }
+    \keyw{3D printing,Additive manufacturing,Polymer blends,Processing
+  techniques,Thermoplastic composites}
+    \strng{namehash}{VAD+1}
+    \strng{fullhash}{VADDJRCEAHCQMJARC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    Commodity thermoplastics and thermoplastic composites are staples in
+  Additive Manufacturing (AM). Their use is widespread and accounts for the
+  largest volume of 3D printed materials. Accessible property ranges of current
+  material formulations are limited, and thus there is high interest in
+  extending AM to high-performance engineering polymers and nanocomposites that
+  have yet to gain wide commercial acceptance in AM. Current applications of
+  high-performance thermoplastic polymers are limited to adaptations from
+  conventional plastics processing such as injection molding, thermoforming,
+  extrusion, and others. Thermoplastic composites can be categorized into
+  particle-, fiber-, and nanomaterial-based composites as well as polymer
+  blends. The importance of these different composite systems to AM is
+  discussed in this review. Also reviewed are trends in instrument development
+  such as in-nozzle impregnation, dual print heads, and higher temperature FDM
+  that improve printing of thermoplastic composites. An overview of newer types
+  of AM techniques allowing higher filler loading for thermoplastic composites
+  like liquid deposition modeling (LDM) sometimes known as direct ink writing
+  (DIW) are discussed. Finally, a perspective is given on the important
+  parameters and standards needed to make AM printed objects from polymer
+  composites more effective in cost/performance ratio.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.PROGPOLYMSCI.2019.101162
+    \endverb
+    \field{issn}{0079-6700}
+    \field{pages}{101162}
+    \field{title}{Advances in 3D printing of thermoplastic polymer composites
+  and nanocomposites}
+    \field{volume}{98}
+    \field{journaltitle}{Progress in Polymer Science}
+    \field{month}{11}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Whelan2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WJ}{%
+         family={Whelan},
+         familyi={W\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=MSP}{%
+         family={Mccarthy},
+         familyi={M\bibinitperiod},
+         given={S\bibnamedelima P},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PZJ}{%
+         family={Palanchian},
+         familyi={P\bibinitperiod},
+         given={Z\bibnamedelima J},
+         giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJMSPPZJ1}
+    \strng{fullhash}{WJMSPPZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Digital WPI Major Qualifying Projects (All Years) Major
+  Qualifying Projects Conveyor Belt 3D Printer MQP Repository Citation}
+    \verb{url}
+    \verb https://digitalcommons.wpi.edu/mqp-all/1492
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{BCN3D}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{When Was 3D Printing Invented? The History of 3D Printing -}
+    \verb{url}
+    \verb https://www.bcn3d.com/the-history-of-3d-printing-when-was-3d-printing
+    \verb -invented/
+    \endverb
+  \endentry
+\enddatalist
+\endinput
