@@ -11,10 +11,12 @@
 \usepackage{csquotes}
 
 \def\tab#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endtab=\endlist 
+\let\endtab=\endlist
 
 \usepackage{array}
 \newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+
+\usepackage{tabularx}
 
 \def\check{\cellcolor[HTML]{B7ED9F}\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 
@@ -119,8 +121,8 @@ Este trabalho se organiza em cinco seções correlacionadas com objetivo de cont
 
 \begin{itemize}
 \item Introdução: O panorama geral da manufatura aditiva é introduzido, das suas origens a uma fotografia do cenário atual, além de uma breve análise de mercado e apresentação de aspectos tecnológicos envolvidos no desenvolvimento. Por fim, os objetivos do trabalho são explicitados.
-\item Revisão Bibliográfica: Trata do levantamento de requisitos de projeto para todas as áreas pertinentes, através do estudo do cenário atual da tecnologia de impressão 3D FDM. Finalmente, é obtida uma imagem genérica do que se espera do dispositivo final, construída pelos requisitos levantados.
-\item Metodologias: Com a imagem genérica da máquina em mãos, é executado o projeto. Nesta seção são explicitadas as escolhas de projeto, metodologias e ferramentas. A posteriori, é feita a montagem das partes projetadas, elicitando problemas de projeto.
+\item Revisão Bibliográfica: Trata do levantamento de requisitos de projeto para todas as áreas pertinentes, através do estudo do cenário atual da tecnologia de impressão 3D FDM. Finalmente, é obtida uma abstração do que se espera do dispositivo final, construída pelos requisitos levantados.
+\item Metodologias: Com a abstração da máquina em mãos, é executado o projeto. Nesta seção são explicitadas as escolhas de projeto, metodologias e ferramentas. A posteriori, é feita a montagem das partes projetadas, elicitando problemas de projeto.
 \item Resultados e Discussão: Com o dispositivo finalizado, resta testá-lo, avaliar soluções para os problemas levantados na seção anterior, verificar a completude dos requisitos de projeto e considerar possíveis alterações e melhorias.
 \item Conclusões: Nesta seção é realizada uma recapitulação do trabalho, sumarizando-o e verificando a realização dos objetivos propostos. Deixando, por fim, um compilado de ideias para pesquisas futuras, coletadas durante a execução do projeto.
 \end{itemize}
@@ -677,45 +679,334 @@ A plataforma que suporta o objeto impresso deve ser aquecida objetivando desacel
 
 O dispositivo é construído através de uma placa de material condutor de calor, acoplado a uma resistência elétrica para prover o calor necessário. É importante a utilização de um sensor de temperatura para realizar o controle da temperatura da mesa em malha fechada.
 
-% 2.3.5 Elétrica e Eletrônica
+\subsubsection{Elétrica: Motores e Drivers}
 
-% A parte elétrica/eletrônica da impressora 3D FDM compreende os seguintes componentes:
+\paragraph{}
+Em sua grande maioria, as impressoras 3D FDM, utilizam motores de passo. Esses motores possuem uma precisão de posicionamento excelente e são bastante confiáveis, o que os torna uma escolha popular para impressoras 3D FDM. Podem ser motores híbridos ou de imã permanente, usualmente classificados pela topologia de acionamento: unipolar ou bipolar. (citação artigo motor)
 
-% Motores:
-% Drivers para motores
-% Sensores de temperatura
-% Drivers para aquecedores (Resistências)
-% Sensores de fim de curso
-% Fonte
-% Microcontrolador
-% Outros
+A associação NEMA (National Electrical Manufacturers Association) é a responsável pela criação padrões de manufatura que descrevem os motores de passo mais utilizados nas impressoras 3D. Dentre estes estão os categorizados como NEMA 23, NEMA 17, NEMA 14, dentre outros. (citação reprap)
+
+(imagem motores nema) 
+
+O controle destes dispositivos é realizado através de pulsos elétricos, também chamados de passos. Para realizar esse controle, são utilizados os drivers de motor de passo. Existem várias opções de drivers disponíveis no mercado, incluindo o popular A4988 e o TMC2208, que fornecem recursos avançados, como detecção de perda de passo e redução de ruído.
+
+(imagem A4988 e TMC2208) (citação datasheets)
+
+Neste projeto, foram utilizados motores NEMA 17 e drivers TMC2208 
+
+\subsubsection{Elétrica: Aquecedores}
+
+\paragraph{}
+Tanto o bico aquecido quanto a mesa aquecida podem ser considerados componentes elétricos também. O bico aquecido possui uma resistência elétrica para derreter o filamento de impressão, enquanto a mesa aquecida é uma placa de metal com um elemento de aquecimento embutido que mantém a temperatura da superfície da plataforma de impressão em um nível constante para ajudar na aderência do material. 
+
+(imagem elemento aquecedor)
+(imagem mesa quente)
+
+Ambos os componentes elétricos são alimentados geralmente por fontes de 12V ou 24V, e são controlados por circuitos eletrônicos, como relés ou MOSFETs. Além disso, é importante garantir que esses componentes estejam isolados eletricamente do resto do sistema para evitar curto-circuitos e choques elétricos, já que sua tensão de operação é mais elevada que dos demais componentes.
+
+\subsubsection{Elétrica: Fonte}
+
+\paragraph{}
+A fonte de alimentação é responsável por fornecer energia elétrica suficiente para alimentar todos os componentes eletrônicos da máquina, incluindo os motores, a placa controladora, a cama aquecida e o bico aquecido. Uma fonte de alimentação de boa qualidade e com amperagem adequada é essencial para garantir uma operação estável e confiável da impressora. 
+
+(tabela consumo componentes)
 
 
-% 2.3.6 Firmware e Software
+As impressoras 3D FDM geralmente requerem uma fonte de alimentação de 12V ou 24V, dependendo dos componentes eletrônicos utilizados. A fonte de alimentação 24V e 30A é uma escolha comum para impressoras 3D FDM, pois oferece energia suficiente para alimentar os componentes eletrônicos utilizados nas impressoras, incluindo motores de passo e aquecedores de alta potência. 
 
-% O firmware de uma impressora 3D FDM deve ter como funcionalidades o controle e sensoriamento de todo o aparato da máquina além da leitura e interpretação de código de fabricação (GCode). Funcionalidades extras como interatividade com o usuário, acesso e visualização remota, detecção de falhas, compensação de vibrações são opcionais, no entanto podem aumentar a experiência de usuário e a qualidade final dos objetos.
+(imagem fonte 2430)
 
-% Funcionalidades Primárias
+\subsubsection{Eletrônica: Sensores}
+
+\paragraph{}
+Os sensores mais comuns utilizados em impressoras 3D são os sensores de fim de curso e os sensores de temperatura. 
+
+Os sensores de fim de curso são usados para detectar se a posição dos eixos da impressora atingiu seu limite ou ponto de referência. Geralmente, há três sensores de fim de curso em uma impressora 3D FDM, um para cada eixo (X, Y e Z). 
+
+(imagem fim de curso)
+
+Por sua vez, os sensores de temperatura, usualmente termistores ou termopares, são usados para medir a temperatura dos componentes da impressora 3D, principalmente o bico aquecido e a mesa aquecida, garantindo que eles operem dentro de uma faixa de temperatura segura e consistente para a impressão.
+
+(imagem termistor)
+
+Além dos sensores mais comuns, outros sensores adicionais podem ser utilizados para aprimorar a funcionalidade da impressora 3D, como sensores de detecção de filamento, que são usados para detectar quando o filamento de impressão acaba e informar o sistema de controle para interromper a impressão, ou sensores de vibração, que podem ser utilizados para detectar e corrigir problemas mecânicos na impressora durante a operação. A escolha e a configuração dos sensores utilizados em uma impressora 3D FDM dependem das necessidades e dos requisitos específicos da impressão.
+
+\subsubsection{Eletrônica: Microcontrolador}
+
+\paragraph{}
+Os microcontroladores são responsáveis por controlar todo o processo de impressão, incluindo o movimento dos motores, aferição dos sensores e aquecimento dos componentes. Existem vários disponíveis no mercado para impressoras 3D, incluindo Arduino, Raspberry Pi, STM32, entre outros. O Arduino Mega 2560 é um dos mais populares para impressoras 3D, devido à sua ampla comunidade de usuários e sua facilidade de uso, enquanto o Raspberry Pi é um computador de placa única bastante poderoso e capaz de realizar o controle da impressora.
+
+(imagem arduino e Raspberry)
+
+No entanto, outro microcontrolador que tem ganhado popularidade recentemente na comunidade de impressoras 3D é o ESP32, produzido pela Espressif Systems. O ESP32 é um microcontrolador de baixo custo que oferece conectividade Wi-Fi e Bluetooth integrada, bem como uma grande quantidade de memória e poder de processamento. Essas características tornam o ESP32 uma opção atraente para impressoras 3D que requerem conectividade sem fio, como a capacidade de controle remoto e o monitoramento da impressora através de dispositivos móveis ou computadores. Além disso, a grande comunidade de usuários do ESP32 oferece suporte e recursos valiosos para os usuários de impressoras 3D. (cite site esp)
+
+(imagem esp)
+
+\subsubsection{Firmware}
+
+\paragraph{}
+Existem várias implementação de firmware disponíveis para impressoras 3D, cada uma com suas próprias vantagens e desvantagens. As mais comuns incluem Marlin(cite marlin), Klipper(cite klipper), entre outros. Marlin é um firmware popular e de código aberto que oferece recursos como autonivelamento, suporte a vários extrusores e suporte a LCDs. Já Klipper é um firmware de impressora 3D direcionado para computadores de placa única, como os da fabricante Raspberry, citado no capítulo anterior.
+
+No entanto, com intuito de aprender mais sobre o funcionamento do firmware de uma impressora 3d, neste trabalho será desenvolvido um personalizado, adaptado às necessidades específicas do dispositivo. Este firmware deve ter as seguintes funcionalidades:
+
+\begin{enumerate}
+	\item {
+		Ler arquivos de impressão de um cartão de memória;
+	}
+	\item {
+		Interpretar o código de máquina gerado por um software fatiador (como o Cura ou o Simplify3D);
+		}
+	\item {
+		Monitorar sensores, como os sensores de fim de curso, sensor de temperatura (termistor), sensor de nível de filamento, entre outros;
+	}
+	\item {
+		Controlar as partes aquecidas da impressora, como o bico aquecido e a mesa aquecida;
+		}
+	\item {
+		Controlar os motores da impressora para mover os eixos X, Y e Z, bem como o extrusor;
+	}
+	\item {
+		Oferecer informações e opções de configuração para o usuário, como ajustar a velocidade da impressão, temperatura de bico e mesa, entre outros;
+	}
+\end{enumerate}
+
+
+\pagebreak
+\section{Metodologias}
+
+\paragraph{}
+Após o panorama introduzido no capítulo anterior é possível traçar um plano de projeto com requisitos mínimos para o dispositivo. De todas as possibilidades dadas, o escopo do projeto se configurará da seguinte maneira:
+
+\begin{center}
+	\begin{tabularx}{\linewidth}{lX}
+	\toprule
+	\textbf{Característica} & \textbf{Requisito}\\
+	\midrule
+	Tecnologia & Fused Deposition Modelling (FDM) \\
+	\addlinespace
+	\textbf{Mecânica}\\
+	\midrule
+	Estrutura & Perfil estrutural V-Slot \\
+	Conexões & Parafusos, porcas e peças auxiliares manufaturadas via impressão 3D\\
+	% Parafusos, porcas e peças auxiliares manufaturadas via impressão 3D \\
+	Movimento do efetuador & Mecânica CORE-XY \\
+	Movimento da mesa & Cantilever \\
+	Extrusor de filamento & Bowden Tube Extruder \\
+	\addlinespace
+	\textbf{Termodinâmica}\\
+	\midrule
+	Bico aquecido & E3D-V6 \\
+	Mesa aquecida & 300mm x 300mm, 24V \\
+	\addlinespace
+	\textbf{Elétrica}\\
+	\midrule
+	Motores & NEMA 17 \\
+	Drivers & TMC2208 \\
+	Fonte & 24V 30A \\
+	\addlinespace
+	\textbf{Eletrônica}\\
+	\midrule
+	Sensor de temperatura & Termistor tipo N \\
+	Sensor de fim de curso & Chave mecânica \\
+	Microcontrolador & Espressif ESP32 \\
+	\addlinespace
+	\textbf{Firmware}\\
+	\midrule
+	Controle dos motores & Controle de passo por velocidade \\
+	Controle dos aquecedores & PWM(Pulse Width Modulation) com controlador PID \\
+
+	\bottomrule
+	\end{tabularx}
+\end{center}
+\captionof{table}{Requisitos para o projeto da impressora 3D}
+
+\paragraph{}
+As seguintes seções descrevem o projeto de cada uma das partes da impressora.
+\pagebreak
+
+\subsection{Projeto Mecânico}
+
+\paragraph{}
+O projeto mecânico foi desenvolvido no software SolidWorks, considerado um dos melhores softwares para Design Assistido por Computador (CAD - Computer Aided Design) do mercado.
+
+\subsubsection{Estrutura}
+
+\setlength{\parindent}{20pt}
+
+\paragraph{}
+A estrutura da máquina foi desenvolvida, em grande parte, utilizando os perfis de alumínio do tipo V-Slot de 20mm x 20mm. Esse tipo de material foi escolhido pela praticidade de montagem, necessitando apenas de parafusos e porcas.
+
+Demais conexões e suportes foram fabricados por uma impressora 3D FDM, utilizando o material ABS, por ser mais rigido, resistente e aceitar maiores temperaturas que as demais opções acessíveis.
+
+A estrutura externa é aproximadamente cubica com x mm x y mm x z mm. Além disso foram posicionados perfis horizontais em alturas adequadas para o suporte de partes como motores, trilhos, eixos, dentre outras.
+
+(imagens do projeto estrutural de varios angulos)
+
+\subsubsection{Movimento do efetuador}
+
+\paragraph{}
+Para a movimentação do efetuador, foi escolhida a dinâmica CORE-XY, que apesar de complexa, reduz a massa móvel do efetuador, possibilitando maiores velocidades de impressão e melhor qualidade.
+
+Foi utilizado um sistema de correias, polias e guias lineares com patins do tipo MGN para realizar o movimento. A força motora do sistema vem de dois motores NEMA 17, conectados em duas extremidades das correias. 
+
+Os suportes para as polias e para a guia linear central foram projetados para serem impressos em ABS e fixados nas demais partes com parafusos e porcas. As polias que fazem contato com a parte dentada da correia também possuem dentes, ampliando a tração da correia.
+
+\subsubsection{Movimento da mesa}
+
+\paragraph{}
+O controle vertical da mesa de impressão foi projetado com base no sistema Cantilever, apoiada apenas de um dos lados com dois eixos lineares. Os eixos lineares contam com rolamentos (também chamados de pillow block) para alinhar o movimento.
+
+A força motora deste sistema é provida por um motor NEMA 17 acoplado a um fuso trapezoidal com passo passo 2mm. Este fuso, por sua vez se acopla na estrutura de suporte da mesa aquecida por meio de uma castanha, projetada utilizando perfis V-Slot e conexões impressas em ABS.
+
+A mesa é montada na estrutura com um mecanismo de parafusos e molas que possibilita o seu ajuste de altura em suas quatro extremidades, facilitando o processo de calibração do eixo vertical. 
+
+\subsection{Projeto Elétrico}
+
+\paragraph{}
+Nesta seção serão detalhadas as decisões de projeto elétrico da impressora 3D, baseados no dimensionamento do sistema. Por fim, um diagrama de conexões é criado, a fim de ter uma visão suscinta do dispositivo. 
+
+Para este projeto foram selecionados os seguintes componentes:
+
+\begin{itemize}
+	\item {
+		Hot End: E3D V6, 24V;
+	}
+	\item {
+		Mesa aquecida: 300mm x 300mm, 24V;
+	}
+	\item {
+		Motores: NEMA 17;
+	}
+	\item {
+		Placa de controle (Mainboard): desenvolvimento próprio;
+	}
+\end{itemize}
+
+\subsubsection{Dimensionamento}
+
+\paragraph{}
+A potência dos componentes aquecidos é obtida por datasheet, sendo 40W o consumo do bico aquecido e 240W o da mesa aquecida.
+
+Já o consumo máximos dos quatro motores depende da tensão de alimentação, já que o datasheet apresenta apenas a corrente máxima do componente, de 1.8A. A potência máxima consumida por um motor seria a seguinte: 
+
+\[\textrm{Potência motor (W)} = 24\textrm{(V)} \times 1.8\textrm{(A)} = 43.2\textrm{(W)}\]
+
+A potência requerida por um conjunto de quatro motores seria:
+
+\[\textrm{Potência total (W)} = 4 \times 43.2\textrm{(W)} = 172.8\textrm{(W)}\]
+
+O consumo da Mainboard foi estimado a cerca de 1A, totalizando 24W de potência.
+
+% cite: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
+
+Para o cálculo de dimensionamento dos cabos foi utilizada a convenção AWG (American Wire Gauge) seguindo a tabela presente em (fonte). A corrente do bico e da mesa foram calculados da seguinte forma:
+
+\[\textrm{Corrente bico aquecido (A)} = \dfrac{40\textrm{(W)}}{24\textrm{(V)}} = 1.6\textrm{(A)}\]
+\[\textrm{Corrente mesa aquecida (A)} = \dfrac{240\textrm{(W)}}{24\textrm{(V)}} = 10\textrm{(A)}\]
+
+Sendo assim, seguindo o padrão da tabela, podemos escolher o cabo do bico aquecido e da Mainboard com até 24AWG, da mesa aquecida com até  16AWG e dos motores com 4 núcleos de até 22AWG.
+
+A tabela abaixo discrimina potência máxima requerida pelos componentes do projeto, além do dimensionamento dos cabos para conexão elétrica:
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{lccc}
+		\toprule
+		\textbf{Componente} & \textbf{Tensão} & \textbf{Potência} & \textbf{Cabo}\\
+		\midrule
+		E3D V6 & 24V & 40W & 24AWG\\
+		300mm x 300mm & 24V & 240W & 16AWG\\
+		4 x NEMA 17 & 24V & 172.8W & 4 núcleos de 22AWG\\
+		Mainboard & 24V & 24W & 24AWG\\
+		\addlinespace
+		\midrule
+		Total & - & 476.8W & -\\
+		\bottomrule
+	\end{tabular}
+	\caption{Dimensionamento componentes}
+\end{table}
+
+
+\subsubsection{Diagrama Elétrico}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{diagrama-eletrico.png}
+	\caption{Partes do bico aquecido (Hot End)}
+\end{figure}
+
+\subsection{Projeto Eletrônico}
+
+\paragraph{}
+Neste capítulo, apresentamos o projeto esquemático de uma Mainboard de impressora 3D baseada no microcontrolador ESP32. O hardware da Mainboard foi projetado para possibilitar uma futura expansão, ou a integração de funcionalidades não previstas, e é composto por:
+
+\begin{itemize}
+	\item {
+		4 x drivers TMC2208 para controle de motor de passo, acionamento via UART (serial) ou via STEP/DIR;
+	}
+	\item {
+		4 x MOSFETs de potência para acionamento das partes aquecidas (apenas dois são necessários);
+	}
+	\item {
+		4 x BJTs de baixa potência para acionamento de cargas menores (ventiladores, luzes, atuadores, dentre outros);
+	}
+	\item {
+		8 x entradas digitais de até 3.3V com pull up;
+	}
+	\item {
+		4 x entradas analógicas de 0V a 3.3V;
+	}
+	\item {
+		Conversor DC-DC de 24V para 5V.
+	}
+\end{itemize}
+
+\subsubsection{Esquemático}
+
+\paragraph{}
+O esquemático da Mainboard foi desenvolvido utilizando o software EasyEDA, uma ferramenta gratuita na qual se pode projetar esquemáticos e placas de circuito impresso.
+
+Para a implementação da placa, foi necessário considerar alguns pontos de atenção sobre os componentes escolhidos. A princípio, se estudou o datasheet do driver TMC2208, a fim de identificar um circuito sugerido para a montagem:
+
+(imagem circuito exemplo TMC)
+
+Dado este circuito de exemplo uma dificuldade foi levantada: a quantidade de pinos utilizados para o controle dos quatro drivers era muito maior que a quantidade de pinos disponíveis no microcontrolador.
+
+A solução considerada para este problema foi a utilização de circuitos expansores de porta. O componente escolhido foi o PCF8574, da fabriacnte Texas Instruments. Estes circuitos integrados são comandados via I2C e possibilitam a utilização de 8 terminais como entrada ou saída genérica.
+
+Outro detralhe sobre o circuito do TMC2208 é a presença de um acesso via UART, de apenas uma via. Entretanto, para utilizá-lo com múltiplos drivers, o datasheet sugere o uso de uma chave analógica quadrupla bilateral (quadruple bilateral analog switch). O dispositivo sugerido é o SN74HC4066, também fabricado pela Texas Instruments.
+
+(detalhe porta uart para multiplos drivers)
+
+Os circuitos de acionamento com MOSFET e BJT foram desenvolvidos respectivamente com os compoentes IRFZ44N (MOSFET canal N) e BC548B (BJT do tipo NPN). Ambos circuitos são configurações chave simples.
+
+Foram implementados alguns indicadores luminosos para indicar a presença de tensão em algumas partes do circuito. Por fim foram selecionados os conectores para a aplicação. A lista completa de componentes (BOM) pode ser encontrada nos apendices (apendice x).
+
+Alguns componentes como o ESP32, TMC2208 e o conversor DC-DC 24V para 5V foram utilizados em implementações modulares, com o intuito de facilitar os testes e a prototipagem. Implementações futuras devem utilizar os componentes diretamente, elevando o nível de profissionalidade e confiabilidade da placa.
+
+
+\subsubsection{Placa de Circuito Impresso}
+\subsection{Projeto de Firmware}
+\subsubsection{Arquitetura}
+\subsubsection{Controle do Motor de Passo}
+\subsubsection{Aferição dos sensores}
+\subsubsection{Pulse Width Modulation}
+\subsubsection{Controlador PID}
+
+\subsection{Montagem}
 	
-% As tarefas principais do firmware de uma impressora 3D FDM podem ser divididas em quatro categorias principais:
 
-% Leitura e interpretação de código de fabricação (GCode)
-% Sensoriamento
-% Controle dos motores
-% Controle dos elementos aquecidos
+\pagebreak
+\section{Resultados e Discussão}
 
-% Funcionalidades Extras
-
-% 	A categoria de funcionalidades extras compreende funções opcionais que podem agregar de alguma forma na experiência de impressão. Não são obrigatórias para o funcionamento do equipamento, mas podem adicionar usabilidade e qualidade de impressão. Alguns exemplos são:
-
-% Interatividade
-% Detecção de falhas
-% Compensação de vibrações
+\pagebreak
+\section{Conclusões}
 
 
 
 
-
+\pagebreak
 
 \printbibliography[title=Referências]
 

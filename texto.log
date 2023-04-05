@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  11 NOV 2022 02:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  3 APR 2023 21:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/hngui/OneDrive/Documentos/ufmg/TCC/Monografia/texto.tex
-(c:/Users/hngui/OneDrive/Documentos/ufmg/TCC/Monografia/texto.tex
+**c:/Users/hngui/OneDrive/Documentos/ufmg/TCC/tcc_3dp/texto.tex
+(c:/Users/hngui/OneDrive/Documentos/ufmg/TCC/tcc_3dp/texto.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-05-04> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -1055,7 +1055,16 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
-))
+)) (c:/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen334
+\TX@old@table=\dimen335
+\TX@old@col=\dimen336
+\TX@target=\dimen337
+\TX@delta=\dimen338
+\TX@cols=\count487
+\TX@ftn=\toks52
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1063,37 +1072,37 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./texto.aux)
 \openout1 = `texto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count487
-\scratchdimen=\dimen334
+\scratchcounter=\count488
+\scratchdimen=\dimen339
 \scratchbox=\box86
-\nofMPsegments=\count488
-\nofMParguments=\count489
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count490
-\MPscratchDim=\dimen335
-\MPnumerator=\count491
-\makeMPintoPDFobject=\count492
-\everyMPtoPDFconversion=\toks53
+\nofMPsegments=\count489
+\nofMParguments=\count490
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count491
+\MPscratchDim=\dimen340
+\MPnumerator=\count492
+\makeMPintoPDFobject=\count493
+\everyMPtoPDFconversion=\toks54
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1101,7 +1110,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 30.
  (./texto.out) (./texto.out)
 \@outlinefile=\write5
 \openout5 = `texto.out'.
@@ -1141,7 +1150,7 @@ Package hyperref Info: Link coloring ON on input line 28.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count493
+\c@lstlisting=\count494
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1158,8 +1167,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'texto.bbl' found.
  (./texto.bbl)
-Package biblatex Info: Reference section=0 on input line 28.
-Package biblatex Info: Reference segment=0 on input line 28.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
  (./texto.toc
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 5.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -1180,13 +1189,13 @@ File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 5.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-))
+) [1
+
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write6
 \openout6 = `texto.toc'.
 
- (./texto.lof [1
-
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+ (./texto.lof)
 \tf@lof=\write7
 \openout7 = `texto.lof'.
 
@@ -1195,282 +1204,290 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 \openout8 = `texto.lot'.
 
  [3]
-Overfull \hbox (4.07193pt too wide) in paragraph at lines 49--50
+Overfull \hbox (4.07193pt too wide) in paragraph at lines 51--52
 []\T1/ppl/m/n/12 Geralmente, nos pro-ces-sos sub-tra-tivos são necessárias várias máquinas como tornos,
  []
 
 
-Overfull \hbox (1.62415pt too wide) in paragraph at lines 49--50
+Overfull \hbox (1.62415pt too wide) in paragraph at lines 51--52
 \T1/ppl/m/n/12 fre-sas e fu-radeiras, que são equipa-men-tos com-plexos, na maio-ria das vezes com muitos
  []
 
 [4]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 80.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Overfull \hbox (4.67046pt too wide) in paragraph at lines 80--81
+Overfull \hbox (4.67046pt too wide) in paragraph at lines 82--83
 []\T1/ppl/m/n/12 Elétrica: para fontes de al-i-men-tação, mo-tor-iza-ção, con-t-role de aque-c-i-mento cabea-
  []
 
 [5]
-Overfull \hbox (1.27473pt too wide) in paragraph at lines 98--99
+Overfull \hbox (1.27473pt too wide) in paragraph at lines 100--101
 []\T1/ppl/m/n/12 Realizar o pro-jeto para de-ter-mi-nada área a par-tir dos req-ui-si-tos es-col-hi-dos. Deve-
  []
 
 [6]
-Overfull \hbox (16.81438pt too wide) in paragraph at lines 124--125
+Overfull \hbox (16.81438pt too wide) in paragraph at lines 126--127
 []\T1/ppl/m/n/12 Resultados e Dis-cussão: Com o dis-pos-i-tivo fi-nal-izado, resta testá-lo, avaliar soluções
  []
 
 
-Overfull \hbox (5.36702pt too wide) in paragraph at lines 125--126
+Overfull \hbox (5.36702pt too wide) in paragraph at lines 127--128
 []\T1/ppl/m/n/12 Conclusões: Nesta seção é re-al-izada uma re-ca-pit-u-lação do tra-balho, sumarizando-
  []
 
 [7] [8]
-<img//Stereolitography-Scanner.png, id=276, 389.95688pt x 212.29312pt>
+<img//Stereolitography-Scanner.png, id=413, 389.95688pt x 212.29312pt>
 File: img//Stereolitography-Scanner.png Graphic file (type png)
 <use img//Stereolitography-Scanner.png>
-Package pdftex.def Info: img//Stereolitography-Scanner.png  used on input line 186.
+Package pdftex.def Info: img//Stereolitography-Scanner.png  used on input line 188.
 (pdftex.def)             Requested size: 194.97795pt x 106.1463pt.
-<img//Stereolitography-Scanner-XY.png, id=279, 451.6875pt x 319.1925pt>
+<img//Stereolitography-Scanner-XY.png, id=416, 451.6875pt x 319.1925pt>
 File: img//Stereolitography-Scanner-XY.png Graphic file (type png)
 <use img//Stereolitography-Scanner-XY.png>
-Package pdftex.def Info: img//Stereolitography-Scanner-XY.png  used on input line 195.
+Package pdftex.def Info: img//Stereolitography-Scanner-XY.png  used on input line 197.
 (pdftex.def)             Requested size: 225.84319pt x 159.59586pt.
  [9 <./img//Stereolitography-Scanner.png>]
-Overfull \hbox (6.98335pt too wide) in paragraph at lines 201--203
+Overfull \hbox (6.98335pt too wide) in paragraph at lines 203--205
 \T1/ppl/m/n/12 com a maior ca-paci-dade de de-tal-hamento do mer-cado. ([]Schmi-dlei-th-ner and Kalaskar
  []
 
 [10 <./img//Stereolitography-Scanner-XY.png>]
-<img//SLS.png, id=306, 414.04688pt x 188.95593pt>
+<img//SLS.png, id=443, 414.04688pt x 188.95593pt>
 File: img//SLS.png Graphic file (type png)
 <use img//SLS.png>
-Package pdftex.def Info: img//SLS.png  used on input line 225.
+Package pdftex.def Info: img//SLS.png  used on input line 227.
 (pdftex.def)             Requested size: 331.23795pt x 151.16493pt.
-<img//SLS-neck.png, id=307, 245.41687pt x 197.23688pt>
+<img//SLS-neck.png, id=444, 245.41687pt x 197.23688pt>
 File: img//SLS-neck.png Graphic file (type png)
 <use img//SLS-neck.png>
-Package pdftex.def Info: img//SLS-neck.png  used on input line 239.
+Package pdftex.def Info: img//SLS-neck.png  used on input line 241.
 (pdftex.def)             Requested size: 196.33376pt x 157.78969pt.
  [11 <./img//SLS.png> <./img//SLS-neck.png>]
-Overfull \hbox (4.82271pt too wide) in paragraph at lines 259--260
+Overfull \hbox (4.82271pt too wide) in paragraph at lines 261--262
 \T1/ppl/m/n/12 fação com-pleta de um aglom-er-ante, através do aque-c-i-mento, mis-tu-rado com partícu-
  []
 
 [12]
-<img//Ender3.png, id=330, 349.305pt x 351.56343pt>
+<img//Ender3.png, id=466, 349.305pt x 351.56343pt>
 File: img//Ender3.png Graphic file (type png)
 <use img//Ender3.png>
-Package pdftex.def Info: img//Ender3.png  used on input line 308.
+Package pdftex.def Info: img//Ender3.png  used on input line 310.
 (pdftex.def)             Requested size: 180.01933pt x 181.18784pt.
-<img//PrusaI3.png, id=335, 435.87843pt x 562.35094pt>
+<img//PrusaI3.png, id=471, 435.87843pt x 562.35094pt>
 File: img//PrusaI3.png Graphic file (type png)
 <use img//PrusaI3.png>
-Package pdftex.def Info: img//PrusaI3.png  used on input line 314.
+Package pdftex.def Info: img//PrusaI3.png  used on input line 316.
 (pdftex.def)             Requested size: 140.43503pt x 181.18784pt.
-<img//FDM-Cartesian.png, id=341, 678.28406pt x 448.67625pt>
+<img//FDM-Cartesian.png, id=477, 678.28406pt x 448.67625pt>
 File: img//FDM-Cartesian.png Graphic file (type png)
 <use img//FDM-Cartesian.png>
-Package pdftex.def Info: img//FDM-Cartesian.png  used on input line 340.
+Package pdftex.def Info: img//FDM-Cartesian.png  used on input line 342.
 (pdftex.def)             Requested size: 273.89626pt x 181.18439pt.
  [13 <./img//Ender3.png> <./img//PrusaI3.png>]
-<img//Ender5-pro.png, id=355, 229.60782pt x 248.42813pt>
+<img//Ender5-pro.png, id=492, 229.60782pt x 248.42813pt>
 File: img//Ender5-pro.png Graphic file (type png)
 <use img//Ender5-pro.png>
-Package pdftex.def Info: img//Ender5-pro.png  used on input line 352.
+Package pdftex.def Info: img//Ender5-pro.png  used on input line 354.
 (pdftex.def)             Requested size: 167.46165pt x 181.18439pt.
-<img//FDM-Hbot.png, id=361, 288.3272pt x 298.11375pt>
+<img//FDM-Hbot.png, id=498, 288.3272pt x 298.11375pt>
 File: img//FDM-Hbot.png Graphic file (type png)
 <use img//FDM-Hbot.png>
-Package pdftex.def Info: img//FDM-Hbot.png  used on input line 364.
+Package pdftex.def Info: img//FDM-Hbot.png  used on input line 366.
 (pdftex.def)             Requested size: 175.23698pt x 181.18439pt.
  [14 <./img//FDM-Cartesian.png> <./img//Ender5-pro.png>]
-<img//FDM-CoreXy.png, id=373, 749.80125pt x 523.20468pt>
+<img//FDM-CoreXy.png, id=510, 749.80125pt x 523.20468pt>
 File: img//FDM-CoreXy.png Graphic file (type png)
 <use img//FDM-CoreXy.png>
-Package pdftex.def Info: img//FDM-CoreXy.png  used on input line 398.
+Package pdftex.def Info: img//FDM-CoreXy.png  used on input line 400.
 (pdftex.def)             Requested size: 259.65419pt x 181.18439pt.
  [15 <./img//FDM-Hbot.png>]
-<img//GTMAX3d.png, id=385, 442.65375pt x 419.31656pt>
+<img//GTMAX3d.png, id=522, 442.65375pt x 419.31656pt>
 File: img//GTMAX3d.png Graphic file (type png)
 <use img//GTMAX3d.png>
-Package pdftex.def Info: img//GTMAX3d.png  used on input line 421.
+Package pdftex.def Info: img//GTMAX3d.png  used on input line 423.
 (pdftex.def)             Requested size: 191.26949pt x 181.18784pt.
-<img//CubeX.png, id=386, 563.85657pt x 424.58624pt>
+<img//CubeX.png, id=523, 563.85657pt x 424.58624pt>
 File: img//CubeX.png Graphic file (type png)
 <use img//CubeX.png>
-Package pdftex.def Info: img//CubeX.png  used on input line 427.
+Package pdftex.def Info: img//CubeX.png  used on input line 429.
 (pdftex.def)             Requested size: 240.621pt x 181.18784pt.
 
-Overfull \hbox (14.13705pt too wide) in paragraph at lines 427--428
+Overfull \hbox (14.13705pt too wide) in paragraph at lines 429--430
  [][] 
  []
 
 
-Overfull \hbox (10.57553pt too wide) in paragraph at lines 437--438
+Overfull \hbox (10.57553pt too wide) in paragraph at lines 439--440
 []\T1/ppl/m/n/12 Nesta im-ple-men-tação a mesa de im-pressão é apoiada em dois la-dos, trazendo
  []
 
 [16 <./img//FDM-CoreXy.png> <./img//GTMAX3d.png> <./img//CubeX.png>]
-<img//Ender5-Plus.png, id=398, 334.24875pt x 288.3272pt>
+<img//Ender5-Plus.png, id=535, 334.24875pt x 288.3272pt>
 File: img//Ender5-Plus.png Graphic file (type png)
 <use img//Ender5-Plus.png>
-Package pdftex.def Info: img//Ender5-Plus.png  used on input line 442.
+Package pdftex.def Info: img//Ender5-Plus.png  used on input line 444.
 (pdftex.def)             Requested size: 210.0474pt x 181.18439pt.
-<img//BambuLab-X1.png, id=403, 1606.0pt x 876.27374pt>
+<img//BambuLab-X1.png, id=540, 1606.0pt x 876.27374pt>
 File: img//BambuLab-X1.png Graphic file (type png)
 <use img//BambuLab-X1.png>
-Package pdftex.def Info: img//BambuLab-X1.png  used on input line 454.
+Package pdftex.def Info: img//BambuLab-X1.png  used on input line 456.
 (pdftex.def)             Requested size: 332.05028pt x 181.18439pt.
  [17 <./img//Ender5-Plus.png> <./img//BambuLab-X1.png>]
-<img//CR30.png, id=417, 1003.75pt x 1003.75pt>
+<img//CR30.png, id=554, 1003.75pt x 1003.75pt>
 File: img//CR30.png Graphic file (type png)
 <use img//CR30.png>
-Package pdftex.def Info: img//CR30.png  used on input line 473.
+Package pdftex.def Info: img//CR30.png  used on input line 475.
 (pdftex.def)             Requested size: 181.18794pt x 181.18784pt.
-<img//Blackbelt.png, id=422, 301.125pt x 200.75pt>
+<img//Blackbelt.png, id=559, 301.125pt x 200.75pt>
 File: img//Blackbelt.png Graphic file (type png)
 <use img//Blackbelt.png>
-Package pdftex.def Info: img//Blackbelt.png  used on input line 479.
+Package pdftex.def Info: img//Blackbelt.png  used on input line 481.
 (pdftex.def)             Requested size: 271.8003pt x 181.18784pt.
 
-Overfull \hbox (45.31635pt too wide) in paragraph at lines 479--480
+Overfull \hbox (45.31635pt too wide) in paragraph at lines 481--482
  [][] 
  []
 
-<img//ABB-IRB360.png, id=430, 204.01219pt x 220.57407pt>
+<img//ABB-IRB360.png, id=567, 204.01219pt x 220.57407pt>
 File: img//ABB-IRB360.png Graphic file (type png)
 <use img//ABB-IRB360.png>
-Package pdftex.def Info: img//ABB-IRB360.png  used on input line 496.
+Package pdftex.def Info: img//ABB-IRB360.png  used on input line 498.
 (pdftex.def)             Requested size: 167.5868pt x 181.18439pt.
 [18 <./img//CR30.png (PNG copy)> <./img//Blackbelt.png (PNG copy)> <./img//ABB-IRB360.png>]
-<img//FDM-Delta.png, id=447, 261.97874pt x 358.33875pt>
+<img//FDM-Delta.png, id=584, 261.97874pt x 358.33875pt>
 File: img//FDM-Delta.png Graphic file (type png)
 <use img//FDM-Delta.png>
-Package pdftex.def Info: img//FDM-Delta.png  used on input line 504.
+Package pdftex.def Info: img//FDM-Delta.png  used on input line 506.
 (pdftex.def)             Requested size: 132.46411pt x 181.18439pt.
-<img//SCARA.png, id=452, 243.15843pt x 155.07938pt>
+<img//SCARA.png, id=589, 243.15843pt x 155.07938pt>
 File: img//SCARA.png Graphic file (type png)
 <use img//SCARA.png>
-Package pdftex.def Info: img//SCARA.png  used on input line 526.
+Package pdftex.def Info: img//SCARA.png  used on input line 528.
 (pdftex.def)             Requested size: 284.0898pt x 181.18439pt.
  [19 <./img//FDM-Delta.png>]
-<img//FDM-Scara.png, id=469, 350.05782pt x 255.20343pt>
+<img//FDM-Scara.png, id=606, 350.05782pt x 255.20343pt>
 File: img//FDM-Scara.png Graphic file (type png)
 <use img//FDM-Scara.png>
-Package pdftex.def Info: img//FDM-Scara.png  used on input line 536.
+Package pdftex.def Info: img//FDM-Scara.png  used on input line 538.
 (pdftex.def)             Requested size: 248.54277pt x 181.18784pt.
 
-Overfull \hbox (22.05882pt too wide) in paragraph at lines 536--537
+Overfull \hbox (22.05882pt too wide) in paragraph at lines 538--539
  [][] 
  []
 
-<img//FDM-Scara-Potter.png, id=470, 444.15938pt x 499.8675pt>
+<img//FDM-Scara-Potter.png, id=607, 444.15938pt x 499.8675pt>
 File: img//FDM-Scara-Potter.png Graphic file (type png)
 <use img//FDM-Scara-Potter.png>
-Package pdftex.def Info: img//FDM-Scara-Potter.png  used on input line 542.
+Package pdftex.def Info: img//FDM-Scara-Potter.png  used on input line 544.
 (pdftex.def)             Requested size: 160.99516pt x 181.18784pt.
-<img//FDM-Scara-Mobile.png, id=471, 727.21687pt x 279.29344pt>
+<img//FDM-Scara-Mobile.png, id=608, 727.21687pt x 279.29344pt>
 File: img//FDM-Scara-Mobile.png Graphic file (type png)
 <use img//FDM-Scara-Mobile.png>
-Package pdftex.def Info: img//FDM-Scara-Mobile.png  used on input line 552.
+Package pdftex.def Info: img//FDM-Scara-Mobile.png  used on input line 554.
 (pdftex.def)             Requested size: 471.77545pt x 181.18439pt.
 
-Overfull \hbox (18.80756pt too wide) in paragraph at lines 552--553
+Overfull \hbox (18.80756pt too wide) in paragraph at lines 554--555
  [][] 
  []
 
 [20 <./img//SCARA.png> <./img//FDM-Scara.png> <./img//FDM-Scara-Potter.png>]
-<img//Bowden-extruder.png, id=492, 293.59688pt x 359.09157pt>
+<img//Bowden-extruder.png, id=629, 293.59688pt x 359.09157pt>
 File: img//Bowden-extruder.png Graphic file (type png)
 <use img//Bowden-extruder.png>
-Package pdftex.def Info: img//Bowden-extruder.png  used on input line 584.
+Package pdftex.def Info: img//Bowden-extruder.png  used on input line 586.
 (pdftex.def)             Requested size: 148.14204pt x 181.18439pt.
  [21 <./img//FDM-Scara-Mobile.png>]
-<img//extruder-gear.png, id=512, 351.56343pt x 172.39406pt>
+<img//extruder-gear.png, id=648, 351.56343pt x 172.39406pt>
 File: img//extruder-gear.png Graphic file (type png)
 <use img//extruder-gear.png>
-Package pdftex.def Info: img//extruder-gear.png  used on input line 599.
+Package pdftex.def Info: img//extruder-gear.png  used on input line 601.
 (pdftex.def)             Requested size: 369.4958pt x 181.18439pt.
  [22 <./img//Bowden-extruder.png>]
-<img//hot-end.png, id=523, 462.97969pt x 419.31656pt>
+<img//hot-end.png, id=660, 462.97969pt x 419.31656pt>
 File: img//hot-end.png Graphic file (type png)
 <use img//hot-end.png>
-Package pdftex.def Info: img//hot-end.png  used on input line 609.
+Package pdftex.def Info: img//hot-end.png  used on input line 611.
 (pdftex.def)             Requested size: 200.05228pt x 181.18439pt.
  [23 <./img//extruder-gear.png> <./img//hot-end.png>]
-<img//V6.png, id=542, 219.06844pt x 222.8325pt>
+<img//V6.png, id=679, 219.06844pt x 222.8325pt>
 File: img//V6.png Graphic file (type png)
 <use img//V6.png>
-Package pdftex.def Info: img//V6.png  used on input line 655.
+Package pdftex.def Info: img//V6.png  used on input line 657.
 (pdftex.def)             Requested size: 178.1297pt x 181.18784pt.
-<img//Hemera.png, id=543, 219.82124pt x 201.75375pt>
+<img//Hemera.png, id=680, 219.82124pt x 201.75375pt>
 File: img//Hemera.png Graphic file (type png)
 <use img//Hemera.png>
-Package pdftex.def Info: img//Hemera.png  used on input line 661.
+Package pdftex.def Info: img//Hemera.png  used on input line 663.
 (pdftex.def)             Requested size: 197.41464pt x 181.18784pt.
  [24]
-<img//warping.png, id=559, 516.42938pt x 248.42813pt>
+<img//warping.png, id=696, 516.42938pt x 248.42813pt>
 File: img//warping.png Graphic file (type png)
 <use img//warping.png>
-Package pdftex.def Info: img//warping.png  used on input line 674.
+Package pdftex.def Info: img//warping.png  used on input line 676.
 (pdftex.def)             Requested size: 376.65147pt x 181.18439pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 720.
+ [25 <./img//V6.png> <./img//Hemera.png> <./img//warping.png>]
+Overfull \hbox (7.16684pt too wide) in paragraph at lines 691--692
+[]\T1/ppl/m/n/12 O con-t-role destes dis-pos-i-tivos é re-al-izado através de pul-sos elétri-cos, tam-bém chama-
+ []
+
+[26] [27] [28]
+
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 821.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 821.
+See the caption package documentation for explanation.
+
+[29] [30] [31]
+<img//diagrama-eletrico.png, id=752, 693.59125pt x 485.815pt>
+File: img//diagrama-eletrico.png Graphic file (type png)
+<use img//diagrama-eletrico.png>
+Package pdftex.def Info: img//diagrama-eletrico.png  used on input line 935.
+(pdftex.def)             Requested size: 362.37569pt x 253.82614pt.
+ [32 <./img//diagrama-eletrico.png>] [33] [34] [35] [36]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1011.
  (c:/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [25 <./img//V6.png> <./img//Hemera.png> <./img//warping.png>] [26]
-Overfull \hbox (14.33986pt too wide) in paragraph at lines 720--720
-[][]\T1/ppl/m/n/12 Deshpande, Sourabh Prashant and Sid Shah (2019). ^^P  DE-VEL-OP-ING AN OPEN SOURCE,
+) [37]
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1011
+\T1/ppl/m/n/12 SOURCE, IN-EX-PEN-SIVE, LARGE-SCALE PO-LAR CON-FIG-U-RA-TION 3D
  []
 
 
-Overfull \hbox (3.07396pt too wide) in paragraph at lines 720--720
-[][]\T1/ppl/m/it/12 Diagnosing and fix-ing ring-ing ver-sus vi-bra-tion arte-facts - de-siquin-tans.com \T1/ppl/m/n/12 (n.d.). \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : [][]$\T1/cmtt/m/n/12 http :
+Underfull \hbox (badness 1558) in paragraph at lines 1011--1011
+[][]\T1/ppl/m/n/12 Florin, []OV€IL€, []OV€IL€ Claudiu, and BAROIU Nicu³or (2016). ^^P  Delta 3D
  []
 
-
-Overfull \hbox (1.09534pt too wide) in paragraph at lines 720--720
-[][]\T1/ppl/m/n/12 Florin, []OV€IL€, []OV€IL€ Claudiu, and BAROIU Nicu³or (2016). ^^P  Delta 3D Printer^^Q.
+[38] [39]
+Underfull \hbox (badness 1383) in paragraph at lines 1011--1011
+[][]\T1/ppl/m/n/12 Sollmann, Klaus S., Musa K. Jouaneh, and David Laven-der (Apr. 2010). ^^P  Dy-
  []
 
-
-Overfull \hbox (15.27266pt too wide) in paragraph at lines 720--720
-[][]\T1/ppl/m/n/12 Goodridge, R. D., C. J. Tuck, and R. J.M. Hague (Feb. 2012). ^^P  Laser sin-ter-ing of polyamides
- []
-
-[27] [28]
-Overfull \hbox (16.38391pt too wide) in paragraph at lines 720--720
-\T1/ppl/m/n/12 mod-el-ing of a two-axis, par-al-lel, H-frame-type XY po-si-tion-ing sys-tem^^Q. In: \T1/ppl/m/it/12 IEEE/ASME
- []
-
-
-Overfull \hbox (1.0476pt too wide) in paragraph at lines 720--720
-\T1/ppl/m/n/12 Projects (All Years) Ma-jor Qual-i-fy-ing Projects Con-veyor Belt 3D Printer MQP Repos-
- []
-
-[29] (./texto.aux)
+[40] (./texto.aux)
 Package rerunfilecheck Info: File `texto.out' has not changed.
-(rerunfilecheck)             Checksum: D5FA3785593052F84BACC933E50F3B88;2712.
+(rerunfilecheck)             Checksum: 14727CD54FBFCF91177D7EF33315006A;6754.
 Package logreq Info: Writing requests to 'texto.run.xml'.
 \openout1 = `texto.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42162 strings out of 478300
- 833207 string characters out of 5849123
- 1536322 words of memory out of 5000000
- 59432 multiletter control sequences out of 15000+600000
+ 42317 strings out of 478300
+ 835734 string characters out of 5849123
+ 1537453 words of memory out of 5000000
+ 59522 multiletter control sequences out of 15000+600000
  500850 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,14n,99p,1874b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,14n,99p,1871b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on texto.pdf (29 pages, 5225844 bytes).
+Output written on texto.pdf (40 pages, 5267434 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 621 compressed objects within 7 object streams
- 171 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 828 compressed objects within 9 object streams
+ 233 named destinations out of 1000 (max. 500000)
+ 622 words of extra memory for PDF output out of 10000 (max. 10000000)
 

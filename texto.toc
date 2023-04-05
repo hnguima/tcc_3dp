@@ -28,3 +28,45 @@
 \contentsline {subsubsection}{\numberline {2.3.3}Termodinâmica: Bico Aquecido (Hot End)}{23}{subsubsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.4}Termodinâmica: Mesa Aquecida (Heated Bed)}{25}{subsubsection.2.3.4}%
 \contentsline {paragraph}{}{25}{section*.41}%
+\contentsline {subsubsection}{\numberline {2.3.5}Elétrica: Motores e Drivers}{25}{subsubsection.2.3.5}%
+\contentsline {paragraph}{}{25}{section*.43}%
+\contentsline {subsubsection}{\numberline {2.3.6}Elétrica: Aquecedores}{26}{subsubsection.2.3.6}%
+\contentsline {paragraph}{}{26}{section*.44}%
+\contentsline {subsubsection}{\numberline {2.3.7}Elétrica: Fonte}{26}{subsubsection.2.3.7}%
+\contentsline {paragraph}{}{26}{section*.45}%
+\contentsline {subsubsection}{\numberline {2.3.8}Eletrônica: Sensores}{27}{subsubsection.2.3.8}%
+\contentsline {paragraph}{}{27}{section*.46}%
+\contentsline {subsubsection}{\numberline {2.3.9}Eletrônica: Microcontrolador}{27}{subsubsection.2.3.9}%
+\contentsline {paragraph}{}{27}{section*.47}%
+\contentsline {subsubsection}{\numberline {2.3.10}Firmware}{28}{subsubsection.2.3.10}%
+\contentsline {paragraph}{}{28}{section*.48}%
+\contentsline {section}{\numberline {3}Metodologias}{29}{section.3}%
+\contentsline {paragraph}{}{29}{section*.49}%
+\contentsline {paragraph}{}{29}{section*.50}%
+\contentsline {subsection}{\numberline {3.1}Projeto Mecânico}{30}{subsection.3.1}%
+\contentsline {paragraph}{}{30}{section*.51}%
+\contentsline {subsubsection}{\numberline {3.1.1}Estrutura}{30}{subsubsection.3.1.1}%
+\contentsline {paragraph}{}{30}{section*.52}%
+\contentsline {subsubsection}{\numberline {3.1.2}Movimento do efetuador}{30}{subsubsection.3.1.2}%
+\contentsline {paragraph}{}{30}{section*.53}%
+\contentsline {subsubsection}{\numberline {3.1.3}Movimento da mesa}{30}{subsubsection.3.1.3}%
+\contentsline {paragraph}{}{30}{section*.54}%
+\contentsline {subsection}{\numberline {3.2}Projeto Elétrico}{31}{subsection.3.2}%
+\contentsline {paragraph}{}{31}{section*.55}%
+\contentsline {subsubsection}{\numberline {3.2.1}Dimensionamento}{31}{subsubsection.3.2.1}%
+\contentsline {paragraph}{}{31}{section*.56}%
+\contentsline {subsubsection}{\numberline {3.2.2}Diagrama Elétrico}{32}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Projeto Eletrônico}{32}{subsection.3.3}%
+\contentsline {paragraph}{}{32}{section*.59}%
+\contentsline {subsubsection}{\numberline {3.3.1}Esquemático}{33}{subsubsection.3.3.1}%
+\contentsline {paragraph}{}{33}{section*.60}%
+\contentsline {subsubsection}{\numberline {3.3.2}Placa de Circuito Impresso}{34}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Projeto de Firmware}{34}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Arquitetura}{34}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Controle do Motor de Passo}{34}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Aferição dos sensores}{34}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Pulse Width Modulation}{34}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Controlador PID}{34}{subsubsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.5}Montagem}{34}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Resultados e Discussão}{35}{section.4}%
+\contentsline {section}{\numberline {5}Conclusões}{36}{section.5}%
